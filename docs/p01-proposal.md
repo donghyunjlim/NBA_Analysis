@@ -1,20 +1,20 @@
-# Title of your Project: Project Proposal 
+# Title of your Project: Project Proposal
 
 **TODO**: Edit this file. Your project proposal goes here. Save and delete the developer notes when done.
 
 ## Developer Notes
 
 * **Where is the project brief?**  [`../instructions/project-design-brief.pdf`](../instructions/project-design-brief.pdf).
-* **Making Progress**: We understand this work might be difficult. Also, we understand that your project ideas might not be completely worked out. So, we ask that you do the best you can. You will receive specific guidance from your TA and constructive feedback. We are confident that you will succeed! 
-* **What should be included in the proposal?** Every proposal will be different. It depends on your particular project.  That said, in the table below you will find the expected report elements.  It is important that you engage with and respond to the the Design Brief. 
-* **How should the proposal be formatted?** You should format your proposal using Markdown in this file. You should aim for a professional presentation - clear, concise, interesting, and free of spelling and grammatical errors. 
-* **What headings should we use?** As needed, the suggested headings below can be revised and new headings and sub-headings can be added. Please use headings, bullet lists, tables, figures, and other markdown code effectively - seek a professional presentation. 
+* **Making Progress**: We understand this work might be difficult. Also, we understand that your project ideas might not be completely worked out. So, we ask that you do the best you can. You will receive specific guidance from your TA and constructive feedback. We are confident that you will succeed!
+* **What should be included in the proposal?** Every proposal will be different. It depends on your particular project.  That said, in the table below you will find the expected report elements.  It is important that you engage with and respond to the the Design Brief.
+* **How should the proposal be formatted?** You should format your proposal using Markdown in this file. You should aim for a professional presentation - clear, concise, interesting, and free of spelling and grammatical errors.
+* **What headings should we use?** As needed, the suggested headings below can be revised and new headings and sub-headings can be added. Please use headings, bullet lists, tables, figures, and other markdown code effectively - seek a professional presentation.
 * **Finishing up.** When you are finished writing and formatting your proposal, save these developer notes(they might useful in the future). Then, delete them.
 * **Questions?** If you have questions, please ask your TA or post on Teams.
 
 |Element | Brief Description|
 |---------------| --------------
-|Code name | Give your project a _code name_, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: _Jazz-4_, _Rocking Fish_, etc. | 
+|Code name | Give your project a _code name_, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: _Jazz-4_, _Rocking Fish_, etc.|
 |Project title| Give your project a concise, interesting title that summarizes the entirety of your project. (Your title can change on subsequent deliverables.) |
 |Authors | Names of your team members and contact information (email addresses). |
 |Affiliation |  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington |
@@ -30,3 +30,87 @@
 |Acknowledgements | Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.|
 |References | Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
 |Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
+
+
+# Title of Project: Project proposal
+## Created by Steven, Jinsu, Jason, Eric
+### Winter 2022
+
+### Code Name
+> **Ideas**
+
+### Project title
+
+### Authors
+|Name | Email|
+|---------------| --------------
+| Steven | stran01@uw.edu |
+| Jinsu | jha01@uw.edu |
+| Jason | Dlim5@uw.edu |
+| Eric | elarge@uw.edu |
+
+
+### Affiliation
+**Info 201: Technical Foundations of Informatics (The Information School)**
+**THE UNIVERISITY OF WASHINGTON**
+
+
+### Abstract
+
+
+### Key words
+
+
+### Introduction to the Project
+
+
+### Design situation
+* **Framing the topic of concern**
+
+
+* **Human values**
+
+
+* **Stakeholders**
+
+
+* **Benefits & Harms**
+
+
+* **Citations (3)**
+
+[Citation 1]()
+[Citation 2]()
+[Citation 3]()
+
+
+### Research Questions (3-5)
+1pt - Describes in at least 2 - 3 sentences why the group is interested in this area
+2pts each - Relevant data driven projects
+1pt each - Question is related to the field
+1pt each - Describes how the question can be answered using data (e.g., a specific comparison within or analysis of the data that answers the question)
+
+
+
+### The Dataset
+1pt each - Link to URL where data is from, and download the data into the project repo in a data/ folder
+1pt each - Description of how was the data collected or generated
+1pt each - How many observations (rows) and features (columns) are in your data
+2pts each - What questions (from above) can be answered using the data in this dataset
+
+### Expected implications
+
+
+### Limitations
+
+
+
+### Acknowledgements
+
+
+
+### References
+
+
+
+### Appendix A: Questions

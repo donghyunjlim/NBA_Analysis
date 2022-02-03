@@ -62,7 +62,8 @@
 
 
 ### Key words (Jason)
-
+*
+* 
 
 ### Introduction to the Project (Steven)
 
@@ -93,6 +94,10 @@
 1pt each - Question is related to the field
 1pt each - Describes how the question can be answered using data (e.g., a specific comparison within or analysis of the data that answers the question)
 
+*
+*
+*
+*
 
 
 ### The Dataset ( B. 5 Steven, B.6 Steven)
@@ -102,10 +107,11 @@
 2pts each - What questions (from above) can be answered using the data in this dataset
 
 ### Expected implications (Jinsu)
+*
 
 
 ### Limitations (Jason)
-
+*
 
 
 ### Acknowledgements (Everyone)
@@ -114,7 +120,14 @@
 
 
 ### References (Everyone)
+*
+*
+*
 
 
 
 ### Appendix A: Questions (Everyone)
+
+*
+*
+*

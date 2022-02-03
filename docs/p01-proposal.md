@@ -32,12 +32,15 @@
 |Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
 
 
-# Title of Project: Project proposal
+# NBA Basketball Analysis: Project proposal
 ## Created by Steven, Jinsu, Jason, Eric
 ### Winter 2022
 
 ### Code Name
 > **Ideas**
+* NBA-A
+* Ballers
+
 
 ### Project title
 
@@ -55,36 +58,36 @@
 **THE UNIVERISITY OF WASHINGTON**
 
 
-### Abstract
+### Abstract (Eric)
 
 
-### Key words
+### Key words (Jason)
 
 
-### Introduction to the Project
+### Introduction to the Project (Steven)
 
 
 ### Design situation
-* **Framing the topic of concern**
+* **Framing the topic of concern** (Jinsu)
 
 
-* **Human values**
+* **Human values** (Jason)
 
 
-* **Stakeholders**
+* **Stakeholders** (Steven)
 
 
-* **Benefits & Harms**
+* **Benefits & Harms** (Eric)
 
 
-* **Citations (3)**
+* **Citations (3)** (Steven)
 
 [Citation 1]()
 [Citation 2]()
 [Citation 3]()
 
 
-### Research Questions (3-5)
+### Research Questions (3-5) (Everyone)
 1pt - Describes in at least 2 - 3 sentences why the group is interested in this area
 2pts each - Relevant data driven projects
 1pt each - Question is related to the field
@@ -92,25 +95,26 @@
 
 
 
-### The Dataset
+### The Dataset ( B. 5 Steven, B.6 Steven)
 1pt each - Link to URL where data is from, and download the data into the project repo in a data/ folder
 1pt each - Description of how was the data collected or generated
 1pt each - How many observations (rows) and features (columns) are in your data
 2pts each - What questions (from above) can be answered using the data in this dataset
 
-### Expected implications
+### Expected implications (Jinsu)
 
 
-### Limitations
-
-
-
-### Acknowledgements
+### Limitations (Jason)
 
 
 
-### References
+### Acknowledgements (Everyone)
+* Samuel
 
 
 
-### Appendix A: Questions
+### References (Everyone)
+
+
+
+### Appendix A: Questions (Everyone)

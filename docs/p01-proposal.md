@@ -1,4 +1,4 @@
-# Title of your Project: Project Proposal (tESTINGG)
+# Title of your Project: Project Proposal (github test)
 
 **TODO**: Edit this file. Your project proposal goes here. Save and delete the developer notes when done.
 

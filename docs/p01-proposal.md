@@ -40,9 +40,10 @@
 > **Ideas**
 * NBA-A
 * Ballers
+* BBB
 
 
-### Project title
+### NBA Basketball Analysis
 
 ### Authors
 |Name | Email|
@@ -59,33 +60,45 @@
 
 
 ### Abstract (Eric)
-
+Our data analysis project mainly focuses on the success and health of current and former NBA players, with emphasis on the 2021 season. To accomplish this we will analyze a multitude of player statistics, including but not limited to, All-Star Game appearances (to operationalize success), years played, and injuries, comparing seasonal and career longevity with overall player success. Finally, conducting this insightful analysis is important because it will help shed light on various real-world issues including the mental and physical health of athletes, along with modern day expectations on individual performance in professional basketball.
 
 ### Key words (Jason)
-*
-* 
+* NBA stats summary
+* Player’s performance
+* Career Longevity
+* Health
+* Points
 
 ### Introduction to the Project (Steven)
 
 
 ### Design situation
 * **Framing the topic of concern** (Jinsu)
+The topic of concern is that we want to know the relationship between the success and the health of the current and former NBA players in 2021. Key elements of the topic are taking care of their mental and physcial health, and how these relate to their performace. Some questions that we can ask are:
+
+> * **How do NBA players continue to strive for success and not get distracted with always having so much pressure and attention on them**
+
+> * **How do the success of a player and the career longevity of a player correlate?**
 
 
 * **Human values** (Jason)
-
+Human values that are connected to the topic of our concern are personal development, mental health, and strength. As we are focusing on each individual player’s health and longevity that lead to successful/unsuccessful performance in the NBA, these values are significant because they have direct correlations to each other.
 
 * **Stakeholders** (Steven)
-
+The stakeholders of our dataset would be first and foremost the players whom we collect data on, the owners of the NBA teams, and any basketball fan in general. The health and production of players is an important factor in all three of these stakeholders, weather it is based on money or passion.
 
 * **Benefits & Harms** (Eric)
+
+> **Benefits: Potential benefits of this analysis include increased awareness around (potentially) unrealistic player performance standards and increasingly long careers through load management. By highlighting both injury and subpar performance patterns in players, our analysis supports the health and well-being of professional basketball players. Finally, NBA players must constantly adapt to their aging bodies and dynamic environments associated with the game, something our project seeks to address for their aid.**
+
+> **Harms: Unanticipated consequences of our analysis might include a deficiency in overall player statistics, as we are narrowing our focus on the 2021 season along with data compiled from the last ten years. Although it’s seemingly unethical to “predict” player injuries, we find it necessary to analyze their minutes, games played, and other stats leading up to previous injuries to prevent future instances. Beyond these factors,  we will attempt to be as unbiased and inclusive as possible in our analysis.**
 
 
 * **Citations (3)** (Steven)
 
-[Citation 1]()
-[Citation 2]()
-[Citation 3]()
+[Basketball Reference](https://www.basketball-reference.com )
+[NBA Data Summarized](https://github.com/MattC137/Open_Data/tree/master/Data/Sports/NBA )
+[College basketball summarized data in US](https://www.kaggle.com/andrewsundberg/college-basketball-dataset )
 
 
 ### Research Questions (3-5) (Everyone)
@@ -94,10 +107,18 @@
 1pt each - Question is related to the field
 1pt each - Describes how the question can be answered using data (e.g., a specific comparison within or analysis of the data that answers the question)
 
-*
-*
-*
-*
+* **What effect(s) does a conservative approach (e.g., players with high game score playing relatively low minutes; see Kawhi Leonard) have on a player’s overall efficiency for that year? By comparing a players game score (GmSc), minutes played (MP), and field goal percentage (FG%) stats, we can contextualize a star player’s efficiency given their work load.**
+
+
+* **How does average number of fouls affect a player’s performance during the season?**
+
+
+* **How does the frequency of injury relate to the game performance?**
+
+
+* **What effect does it have on bench players’ performance when they start the game instead of the original starters who are healthy?**
+
+* **What players have the largest decrease in performance measured by points per game, true shooting percentage, and minutes played?**
 
 
 ### The Dataset ( B. 5 Steven, B.6 Steven)
@@ -107,27 +128,33 @@
 2pts each - What questions (from above) can be answered using the data in this dataset
 
 ### Expected implications (Jinsu)
-*
+Our expected implication is that the healthier the players are, meaning less injuries, more years of playing, and more overall successful seasons, the more successful the player can be.
 
 
 ### Limitations (Jason)
-*
+Though our analysis will consist of the appropriate amount of data points to best support our thesis and come up with results, the variation of players’ performance is expected as their progress is not always linear. For example, players go through injuries, personal matters, or slumps, and later some of those players show good performance in the game but there are also others who struggle to be at the same level as they were before. Thus, we’d like to emphasize that the end result of the project will be based on the probability from the collected data and won’t be entirely accurate in future cases. Additionally, if our group decides to take players’ injuries into consideration for the project, we’ll need to assess the severity of each player’s injury as well as they matter to their future performances, which would be difficult.
 
 
 ### Acknowledgements (Everyone)
 * Samuel
+* Discord
+* Info 201 Teams Page
 
 
 
 ### References (Everyone)
-*
-*
-*
+* “Basketball Statistics and History.” Basketball, https://www.basketball-reference.com/.
+
+* D'Ignazio, Catherine, and Lauren F. Klein. Data Feminism. The MIT Press, 2020.
+
+* https://www.usatoday.com/story/sports/2021/06/11/how-nba-players-coaches-navigated-season-after-bubble-experience/7632303002/
 
 
 
 ### Appendix A: Questions (Everyone)
 
-*
-*
-*
+* How do we git pull and work on accurate versions of the .md file?
+
+* With so much basketball data, what focus should we narrow down on?
+
+* Narrowing in on the 2021 season with stats like career All-Star Game appearances included might be helpful.

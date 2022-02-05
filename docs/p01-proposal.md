@@ -35,15 +35,7 @@
 # NBA Basketball Analysis: Project proposal
 ## Created by Steven, Jinsu, Jason, Eric
 ### Winter 2022
-
-### Code Name
-> **Ideas**
-* NBA-A
-* Ballers
-* BBB
-
-
-### NBA Basketball Analysis
+### Code Name: BBB
 
 ### Authors
 |Name | Email|
@@ -60,7 +52,7 @@
 
 
 ### Abstract (Eric)
-Our data analysis project mainly focuses on the success and health of current and former NBA players, with emphasis on the 2021 season. To accomplish this we will analyze a multitude of player statistics, including but not limited to, All-Star Game appearances (to operationalize success), years played, and injuries, comparing seasonal and career longevity with overall player success. Finally, conducting this insightful analysis is important because it will help shed light on various real-world issues including the mental and physical health of athletes, along with modern day expectations on individual performance in professional basketball.
+Our data analysis project mainly focuses on the success and health of current and former NBA players, with emphasis on the 2021 season as well as the question, "What is the impact of a player's health on their performance?". To accomplish this we will analyze a multitude of player statistics, including but not limited to, All-Star Game appearances (to operationalize success), years played, and injuries, comparing seasonal and career longevity with overall player success. Finally, conducting this insightful analysis is important because it will help shed light on various real-world issues including the mental and physical health of athletes, along with modern day expectations on individual performance in professional basketball.
 
 ### Key words (Jason)
 * NBA stats summary
@@ -70,32 +62,42 @@ Our data analysis project mainly focuses on the success and health of current an
 * Points
 
 ### Introduction to the Project (Steven)
+It seems as though every action, every play, and every call on the basketball court is compiled and recorded as a measurement of the essence of a player. It’s what defines them. Fans might use it to back up their argument that Aleksej Pokuševski is the greatest player alive or NBA teams may use it to gauge the value of players. For our group, we wanted to investigate the relationship between the performance of the players and their physical and mental health. These two metrics deeply impact the **players**, whose income depends on their ability to perform, the **owners**, as the players create the bulk of their revenue,  the **NBA fans** that look forward to seeing their favorite players lace up. Some possible ways we can approach this would be to analyze CSV files on each player’s minutes played, fouls drawn, points per game, and efficiency of each shot to determine if there is a relationship. For instance, statistics that indicate health and longevity such as games played and minutes per game would be analyzed with their production of points and how efficiently the players are getting those points. These findings may impact real world athletes and how they can improve their training regimen and our goal is to identify risks that may pop up from our analysis.
 
 
 ### Design situation
 * **Framing the topic of concern** (Jinsu)
-The topic of concern is that we want to know the relationship between the success and the health of the current and former NBA players in 2021. Key elements of the topic are taking care of their mental and physcial health, and how these relate to their performace. Some questions that we can ask are:
+Our main topic of concern is that we want to know the relationship between the success and the health of current and former NBA players in 2021. Key elements of the topic are taking care of their mental and physical health, and how these relate to their performance. Some questions that we can ask are:
 
 > * **How do NBA players continue to strive for success and not get distracted with always having so much pressure and attention on them**
 
-> * **How do the success of a player and the career longevity of a player correlate?**
+> * **How does the success of a player and their career longevity correlate?**
 
 
 * **Human values** (Jason)
 Human values that are connected to the topic of our concern are personal development, mental health, and strength. As we are focusing on each individual player’s health and longevity that lead to successful/unsuccessful performance in the NBA, these values are significant because they have direct correlations to each other.
 
 * **Stakeholders** (Steven)
-The stakeholders of our dataset would be first and foremost the players whom we collect data on, the owners of the NBA teams, and any basketball fan in general. The health and production of players is an important factor in all three of these stakeholders, weather it is based on money or passion.
+The stakeholders of our dataset would be first and foremost the players whom we collect data on, the owners of the NBA teams, and any basketball fan in general. The health and production of these players are fundamentally important to all three of these groups as the NBA is a business at the end of the day. Indirect stakeholders may be athletes of other sports. If there is a correlation with a metric of health and production, it could translate to other sports with similar intensities.
 
 * **Benefits & Harms** (Eric)
 
-> **Benefits: Potential benefits of this analysis include increased awareness around (potentially) unrealistic player performance standards and increasingly long careers through load management. By highlighting both injury and subpar performance patterns in players, our analysis supports the health and well-being of professional basketball players. Finally, NBA players must constantly adapt to their aging bodies and dynamic environments associated with the game, something our project seeks to address for their aid.**
+The potential **benefits** of this analysis include increased awareness around (potentially) unrealistic player performance standards and increasingly long careers through load management. By highlighting both injury and subpar performance patterns in players, our analysis supports the health and well-being of professional basketball players. Finally, NBA players must constantly adapt to their aging bodies and dynamic environments associated with the game, which is an aspect that our project seeks to address for their aid.**
 
-> **Harms: Unanticipated consequences of our analysis might include a deficiency in overall player statistics, as we are narrowing our focus on the 2021 season along with data compiled from the last ten years. Although it’s seemingly unethical to “predict” player injuries, we find it necessary to analyze their minutes, games played, and other stats leading up to previous injuries to prevent future instances. Beyond these factors,  we will attempt to be as unbiased and inclusive as possible in our analysis.**
+Unanticipated consequences or **harms** of our analysis might include a deficiency in overall player statistics, as we are narrowing our focus on the 2021 season along with data compiled from the last ten years. Although it’s seemingly unethical to “predict” player injuries, we find it necessary to analyze their minutes, games played, and other stats leading up to previous injuries to prevent future instances. Beyond these factors,  we will attempt to be as unbiased and inclusive as possible in our analysis.**
 
 
 * **Citations (3)** (Steven)
 
+The first citation related to this topic of health and basketball comes from the [National Library of Medicine: Effects of age on physical and technical performance in National Basketball Association (NBA) players](https://pubmed.ncbi.nlm.nih.gov/32847370/), where the researchers found a correlation between points per game and age. While this isn't shocking, the more interesting result was that centers tended to decline much more than guards or forwards. In our analysis of the 2021 season, it might be advantageous to see if this is due to the amount of fouls given to the centers compared to the guards.
+
+The second citation is titled [The Effect of Fouls on a Player’s Performance in the NBA by Nikhil Ajjarapu](https://medium.com/@nikhil.ajjarapu/the-effect-of-fouls-on-a-players-performance-in-the-nba-42a0149a1d20). He collected data on player's fouls and their performance measured by points scored before foul and and true shooting percentages before fouls. In particular, he examine Kawhi Leonard's figures, noting a decrease in efficiency as the number of fouls increased. This table is shown below:
+
+![Kawhi's Regular Season True Shooting Percentage](data/Kawhi_Leonard_TS.png)
+
+The third and final citation is [It's a Hard-Knock Life: Game Load, Fatigue, and Injury Risk in the National Basketball Association, by Melanie Lewis, PhD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107769/). Their objective is "to examine the relationship among game load, fatigue, and injuries in NBA athletes". This analysis uses data from a 3 season interval from 2012 to 2015 that analyzes the odds of injury based on fatigue and minutes played. They found that "The odds of injury increased by 2.87% (P < .001) for each 96 minutes played and decreased by 15.96% (P < .001) for each day of rest". This has enormous implications especially in an 82 game regular season.
+
+Finally, while these aren't articles themselves, the next 3 websites tells the story of the raw data of a basketball player:
 [Basketball Reference](https://www.basketball-reference.com )
 [NBA Data Summarized](https://github.com/MattC137/Open_Data/tree/master/Data/Sports/NBA )
 [College basketball summarized data in US](https://www.kaggle.com/andrewsundberg/college-basketball-dataset )
@@ -112,20 +114,34 @@ The stakeholders of our dataset would be first and foremost the players whom we 
 
 * **How does average number of fouls affect a player’s performance during the season?**
 
+We could access the average number of fouls a player has received in a single NBA season and plot that with their true shooting percentages, like in Nikhil Ajjarapu's data set or compare these values with the total points per game in that season. This is a topic of interest since fouls are the main indicator of how rough or strenuous it is in a basketball game. It is assumed that the health of a player that receives on average 3 fouls a game is in more jeopardy than a player who receives 1.
+
 
 * **How does the frequency of injury relate to the game performance?**
 
+Analyzing games played in a season with their efficiency would be a good indicator how their games missed due to injury impacts their play.
 
 * **What effect does it have on bench players’ performance when they start the game instead of the original starters who are healthy?**
 
+By comparing bench and starters, we can better understand how much the increased time spent on court impacts their health.
+
 * **What players have the largest decrease in performance measured by points per game, true shooting percentage, and minutes played?**
 
+As said in the question, we can analyze the metrics of performance such as points per game, true shooting, with metrics of health such as minutes played or time spent recovering from injury. This is perhaps the crux of our research and something we'd like to draw conclusions from.
 
 ### The Dataset ( B. 5 Steven, B.6 Steven)
 1pt each - Link to URL where data is from, and download the data into the project repo in a data/ folder
 1pt each - Description of how was the data collected or generated
 1pt each - How many observations (rows) and features (columns) are in your data
 2pts each - What questions (from above) can be answered using the data in this dataset
+
+
+|Dataset Name & URL | Description| Observations (Rows) | Features (Columns) |
+|---------------| -------------- | -------------- | -------------- |
+| [Basketball Reference](https://www.basketball-reference.com) | This dataset is collected by **_sportradar_**, directly from the NBA. As offical partners, the data is trust worthy and credible. The cite was established in April of 2020. A sample of Lebron's NBA career can be found [Here](data/Lebron_NBA_stats.csv) | There are 23 rows representing a season's worth of statistics, career statistics, and statistics at each team he's played for. | There are 30 columns or features. |
+| [NBA Data Summarized](data/NBA_2016_Stats) | This dataset is compiled by MattCC13 that was imported from the official NBA website.  | There are 400 rows which indicate observations for 400 players in the NBA | There are 18 columns or features.
+
+Since our project requires the compilation of around 300 NBA players, there will be some players with different numbers of rows depending on how long they played in the league. These 2 datasets are the ones we're planning on using the most. 
 
 ### Expected implications (Jinsu)
 Our expected implication is that the healthier the players are, meaning less injuries, more years of playing, and more overall successful seasons, the more successful the player can be.

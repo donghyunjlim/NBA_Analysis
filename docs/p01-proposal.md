@@ -33,23 +33,19 @@
 
 
 # NBA Basketball Analysis: Project proposal
-## Created by Steven, Jinsu, Jason, Eric
-### Winter 2022
 ### Code Name: BBB
-
-### Authors
-|Name | Email|
-|---------------| --------------
-| Steven | stran01@uw.edu |
-| Jinsu | jha01@uw.edu |
-| Jason | Dlim5@uw.edu |
-| Eric | elarge@uw.edu |
-
-
-### Affiliation
+### Winter 2022
+### Affiliation:
 **Info 201: Technical Foundations of Informatics (The Information School)**
 **THE UNIVERISITY OF WASHINGTON**
 
+### Authors
+| **Name** | **Email** |
+|---------------| --------------
+| **Steven** | stran01@uw.edu |
+| **Jinsu** | jha01@uw.edu |
+| **Jason** | Dlim5@uw.edu |
+| **Eric** | elarge@uw.edu |
 
 ### Abstract (Eric)
 Our data analysis project mainly focuses on the success and health of current and former NBA players, with emphasis on the 2021 season as well as the question, "What is the impact of a player's health on their performance?". To accomplish this we will analyze a multitude of player statistics, including but not limited to, All-Star Game appearances (to operationalize success), years played, and injuries, comparing seasonal and career longevity with overall player success. Finally, conducting this insightful analysis is important because it will help shed light on various real-world issues including the mental and physical health of athletes, along with modern day expectations on individual performance in professional basketball.
@@ -142,6 +138,48 @@ As said in the question, we can analyze the metrics of performance such as point
 | [NBA Data Summarized](https://github.com/MattC137/Open_Data/blob/master/Data/Sports/NBA/NBA_2016_Players.csv) | This [NBA 2016 Players](/data/NBA2016Statistics.csv) dataset is compiled by MattCC13 that was imported from the official NBA website. | There are 400 rows which indicate observations for 400 players in the NBA | There are 18 columns or features.
 
 Since our project requires the compilation of around 300 NBA players, there will be some players with different numbers of rows depending on how long they played in the league. These 2 datasets are the ones we're planning on using the most.
+
+### Data provenance
+
+* Who or what is represented in the data?
+
+The National Basketball Association's players are represented in the data. The rows represent each season the NBA players had and the 30 columns represents statistics on their on court play such as minutes per game or steals.
+
+* What is an observation?
+
+An observation would be each year of an NBA player. If referring to the second dataset from MattCC13, each observation would be an individual NBA player.
+
+* What variables are included and excluded?
+
+For the first dataset, the variables included are:
+
+| Season | Age | Team | League | Position | Games Played | Games Started | Minutes Played Per Game | Field Goals Per Game | Field Goals Attempted Per Game | Field Goal Percentage | 3-Point Field Goal Per Game | 3-Point Attempted Per Game | 3-Point Percentage Per Game | 2-Point Field Goals Per Game | 2-Point Field Goals Attempted Per Game | 2-Point Percentage Per Game | Effective Field Goal Percentage Per Game | Free Throws Per Game | Free Throw Attempted Per Game | Free Throw Percentage Per Game | Offensive Rebound Per Game | Defensive Rebound Per Game | Total Rebound Per Game | Assists Per Game | Steals Per Game | Blocks Per Game | Turn Overs Per Game | Points Per Game |
+|---------------| -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
+
+In the actual analysis of this data set, we'd exclude most of these variables and only keep:
+
+| Season | Age | Games Played | Games Started | Minutes Played Per Game | Field Goals Per Game | Field Goal Percentage | 3-Point Field Goal Per Game | 3-Point Percentage Per Game | 2-Point Field Goals Per Game | 2-Point Percentage Per Game | Effective Field Goal Percentage Per Game | Free Throws Per Game | Free Throw Percentage Per Game | Total Rebound Per Game | Assists Per Game | Steals Per Game | Blocks Per Game | Turn Overs Per Game | Points Per Game |
+|---------------| -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | --------------
+
+* **Who collected the data? When? For what purpose?**
+
+The company that collected the data was **_sportradar_**, the official statistical partner of the NBA. They've been collecting data since April 2020. Their core mission statement and values indicate that the datasets they provide are meant to "empower our users to enjoy, understand, and share the sports they love." They actually brush up on some Data Feminism concepts with their values of democratization of sports data and working to have reliable, respected, and credible data.
+
+* **How was the data collection effort funded?**
+
+Though they don't mention how the data collection was funded, it seems as though they get funding from the NBA as they are partners.
+
+* **Who is likely to benefit from the data or make money?**
+
+The NBA is likely to benefit from the data and the service they provide, which is entertainment in the form of a basketball game, is more likely to boom. The more spectacular the statistics or the more unbelievable the headline, the more fans the NBA would likely attract.  
+
+* **How was the data validated and held secure? Is it trustworthy or credible?**
+
+The data is validated and held secure by the actual organization it comes from: the NBA. It is as trustworthy and credible as any possible dataset can be.
+
+* **How did you obtain the data? Do you credit the source of the data?**
+
+I obtained the data through the Basketball-Reference's own CSV to Excel function. I also credited the source of the data in the table above. 
 
 ### Expected implications (Jinsu)
 Our expected implication is that the healthier the players are, meaning less injuries, more years of playing, and more overall successful seasons, the more successful the player can be.

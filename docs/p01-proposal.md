@@ -139,7 +139,7 @@ As said in the question, we can analyze the metrics of performance such as point
 |Dataset Name & URL | Description| Observations (Rows) | Features (Columns) |
 |---------------| -------------- | -------------- | -------------- |
 | [Basketball Reference](https://www.basketball-reference.com) | This dataset is collected by **_sportradar_**, directly from the NBA. As offical partners, the data is trust worthy and credible. The cite was established in April of 2020. A sample of Lebron's NBA career can be found [Here](/data/Lebron_NBA_stats.csv) | There are 23 rows representing a season's worth of statistics, career statistics, and statistics at each team he's played for. | There are 30 columns or features. |
-| [NBA Data Summarized](https://github.com/MattC137/Open_Data/blob/master/Data/Sports/NBA/NBA_2018_Players.csv) | This dataset is compiled by MattCC13 that was imported from the official NBA website.  | There are 400 rows which indicate observations for 400 players in the NBA | There are 18 columns or features.
+| [NBA Data Summarized](https://github.com/MattC137/Open_Data/blob/master/Data/Sports/NBA/NBA_2016_Players.csv) | This [NBA 2016 Players](/data/NBA_2016_Players) dataset is compiled by MattCC13 that was imported from the official NBA website. | There are 400 rows which indicate observations for 400 players in the NBA | There are 18 columns or features.
 
 Since our project requires the compilation of around 300 NBA players, there will be some players with different numbers of rows depending on how long they played in the league. These 2 datasets are the ones we're planning on using the most.
 

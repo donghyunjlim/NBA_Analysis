@@ -93,7 +93,7 @@ The first citation related to this topic of health and basketball comes from the
 
 The second citation is titled [The Effect of Fouls on a Player’s Performance in the NBA by Nikhil Ajjarapu](https://medium.com/@nikhil.ajjarapu/the-effect-of-fouls-on-a-players-performance-in-the-nba-42a0149a1d20). He collected data on player's fouls and their performance measured by points scored before foul and and true shooting percentages before fouls. In particular, he examine Kawhi Leonard's figures, noting a decrease in efficiency as the number of fouls increased. This table is shown below:
 
-![Kawhi's Regular Season True Shooting Percentage](data/KawhiLeonardTS.png)
+![Kawhi's Regular Season True Shooting Percentage](/data/KawhiLeonardTS.png)
 
 The third and final citation is [It's a Hard-Knock Life: Game Load, Fatigue, and Injury Risk in the National Basketball Association, by Melanie Lewis, PhD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107769/). Their objective is "to examine the relationship among game load, fatigue, and injuries in NBA athletes". This analysis uses data from a 3 season interval from 2012 to 2015 that analyzes the odds of injury based on fatigue and minutes played. They found that "The odds of injury increased by 2.87% (P < .001) for each 96 minutes played and decreased by 15.96% (P < .001) for each day of rest". This has enormous implications especially in an 82 game regular season.
 

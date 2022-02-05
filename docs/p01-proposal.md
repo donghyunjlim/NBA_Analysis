@@ -93,7 +93,7 @@ The first citation related to this topic of health and basketball comes from the
 
 The second citation is titled [The Effect of Fouls on a Player’s Performance in the NBA by Nikhil Ajjarapu](https://medium.com/@nikhil.ajjarapu/the-effect-of-fouls-on-a-players-performance-in-the-nba-42a0149a1d20). He collected data on player's fouls and their performance measured by points scored before foul and and true shooting percentages before fouls. In particular, he examine Kawhi Leonard's figures, noting a decrease in efficiency as the number of fouls increased. This table is shown below:
 
-![Kawhi's Regular Season True Shooting Percentage](data/Kawhi_Leonard_TS.png)
+![Kawhi's Regular Season True Shooting Percentage](data/KawhiLeonardTS.png)
 
 The third and final citation is [It's a Hard-Knock Life: Game Load, Fatigue, and Injury Risk in the National Basketball Association, by Melanie Lewis, PhD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107769/). Their objective is "to examine the relationship among game load, fatigue, and injuries in NBA athletes". This analysis uses data from a 3 season interval from 2012 to 2015 that analyzes the odds of injury based on fatigue and minutes played. They found that "The odds of injury increased by 2.87% (P < .001) for each 96 minutes played and decreased by 15.96% (P < .001) for each day of rest". This has enormous implications especially in an 82 game regular season.
 
@@ -139,9 +139,9 @@ As said in the question, we can analyze the metrics of performance such as point
 |Dataset Name & URL | Description| Observations (Rows) | Features (Columns) |
 |---------------| -------------- | -------------- | -------------- |
 | [Basketball Reference](https://www.basketball-reference.com) | This dataset is collected by **_sportradar_**, directly from the NBA. As offical partners, the data is trust worthy and credible. The cite was established in April of 2020. A sample of Lebron's NBA career can be found [Here](data/Lebron_NBA_stats.csv) | There are 23 rows representing a season's worth of statistics, career statistics, and statistics at each team he's played for. | There are 30 columns or features. |
-| [NBA Data Summarized](data/NBA_2016_Stats) | This dataset is compiled by MattCC13 that was imported from the official NBA website.  | There are 400 rows which indicate observations for 400 players in the NBA | There are 18 columns or features.
+| [NBA Data Summarized](https://github.com/MattC137/Open_Data/blob/master/Data/Sports/NBA/NBA_2018_Players.csv) | This dataset is compiled by MattCC13 that was imported from the official NBA website.  | There are 400 rows which indicate observations for 400 players in the NBA | There are 18 columns or features.
 
-Since our project requires the compilation of around 300 NBA players, there will be some players with different numbers of rows depending on how long they played in the league. These 2 datasets are the ones we're planning on using the most. 
+Since our project requires the compilation of around 300 NBA players, there will be some players with different numbers of rows depending on how long they played in the league. These 2 datasets are the ones we're planning on using the most.
 
 ### Expected implications (Jinsu)
 Our expected implication is that the healthier the players are, meaning less injuries, more years of playing, and more overall successful seasons, the more successful the player can be.

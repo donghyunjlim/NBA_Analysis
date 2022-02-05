@@ -1,7 +1,7 @@
 # NBA Basketball Analysis: Project proposal
-## Code Name: **BBB**
-## Winter 2022
-## Affiliation:
+### Code Name: **BBB**
+### Winter 2022
+### Affiliation:
 **Info 201: Technical Foundations of Informatics (The Information School)**
 **THE UNIVERISITY OF WASHINGTON**
 

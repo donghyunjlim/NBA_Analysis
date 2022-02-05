@@ -53,7 +53,7 @@ Unanticipated consequences or **harms** of our analysis might include a deficien
 
 The first citation related to this topic of health and basketball comes from the [National Library of Medicine: Effects of age on physical and technical performance in National Basketball Association (NBA) players](https://pubmed.ncbi.nlm.nih.gov/32847370/), where the researchers found a correlation between points per game and age. While this isn't shocking, the more interesting result was that centers tended to decline much more than guards or forwards. In our analysis of the 2021 season, it might be advantageous to see if this is due to the amount of fouls given to the centers compared to the guards.
 
-The second citation is titled [The Effect of Fouls on a Player’s Performance in the NBA by Nikhil Ajjarapu](https://medium.com/@nikhil.ajjarapu/the-effect-of-fouls-on-a-players-performance-in-the-nba-42a0149a1d20). He collected data on player's fouls and their performance measured by points scored before foul and and true shooting percentages before fouls. In particular, he examine Kawhi Leonard's figures, noting a decrease in efficiency as the number of fouls increased. This table is shown below:
+The second citation is titled [The Effect of Fouls on a Player’s Performance in the NBA by Nikhil Ajjarapu](https://medium.com/@nikhil.ajjarapu/the-effect-of-fouls-on-a-players-performance-in-the-nba-42a0149a1d20). He collected data on player's fouls and their performance measured by points scored before foul and and true shooting percentages before fouls. In particular, he examined Kawhi Leonard's figures, noting a decrease in efficiency as the number of fouls increased. This table is shown below:
 
 ![Kawhi's Regular Season True Shooting Percentage](/data/KawhiLeonardTS.png)
 
@@ -68,10 +68,6 @@ Finally, while these aren't articles themselves, the next 3 websites tells the s
 
 
 ### Research Questions (3-5)
-1pt - Describes in at least 2 - 3 sentences why the group is interested in this area
-2pts each - Relevant data driven projects
-1pt each - Question is related to the field
-1pt each - Describes how the question can be answered using data (e.g., a specific comparison within or analysis of the data that answers the question)
 
 Our group is interested in the area of health and production because we all like sports and seeing our favorite players on the court is something we value and appreciate. That said, another reason for our interest is that there are so many variables measured that we were curious as to what we can do with it. Our research questions are listed down below:
 
@@ -100,7 +96,7 @@ As said in the question, we can analyze the metrics of performance such as point
 |Dataset Name & URL | Description| Observations (Rows) | Features (Columns) |
 |---------------| -------------- | -------------- | -------------- |
 | [Basketball Reference](https://www.basketball-reference.com) | This dataset is collected by **_sportradar_**, directly from the NBA. As offical partners, the data is trust worthy and credible. The cite was established in April of 2020. A sample of Lebron's NBA career can be found [Here](/data/Lebron_NBA_stats.csv) | There are 23 rows representing a season's worth of statistics, career statistics, and statistics at each team he's played for. | There are 30 columns or features. |
-| [NBA Data Summarized](https://github.com/MattC137/Open_Data/tree/master/Data/Sports/NBA) | This [NBA 2016 Players](/data/NBA2016Statistics.csv) dataset is compiled by MattCC137 that was imported from the official NBA website. | There are 400 rows which indicate observations for 400 players in the NBA | There are 18 columns or features.
+| [NBA Data Summarized](https://github.com/MattC137/Open_Data/tree/master/Data/Sports/NBA) | This [NBA 2016 Players](/data/NBA2016Statistics.csv) dataset is compiled by MattC137 that was imported from the official NBA website. | There are 400 rows which indicate observations for 400 players in the NBA | There are 18 columns or features.
 
 Since our project requires the compilation of around 300 NBA players, there will be some players with different numbers of rows depending on how long they played in the league. These 2 datasets are the ones we're planning on using the most.
 
@@ -118,7 +114,7 @@ The National Basketball Association's players are represented in the data. The r
 
 * **What is an observation?**
 
-An observation would be each year of an NBA player. If referring to the second dataset from MattCC13, each observation would be an individual NBA player.
+An observation would be each year of an NBA player. If referring to the second dataset from MattC137, each observation would be an individual NBA player.
 
 * **What variables are included and excluded?**
 
@@ -132,13 +128,13 @@ In the actual analysis of this data set, we'd exclude most of these variables an
 | Season | Age | Games Played | Games Started | Minutes Played Per Game | Field Goals Per Game | Field Goal Percentage | 3-Point Field Goal Per Game | 3-Point Percentage Per Game | 2-Point Field Goals Per Game | 2-Point Percentage Per Game | Effective Field Goal Percentage Per Game | Free Throws Per Game | Free Throw Percentage Per Game | Total Rebound Per Game | Assists Per Game | Steals Per Game | Blocks Per Game | Turn Overs Per Game | Points Per Game |
 |---------------| -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | --------------
 
-In the second dataset, we'd keep all the variables listed and compiled by MattCC137. Since we're not sure of what exactly to do with it as a group yet, this is the best method to ensure we're not limiting ourselves.
+In the second dataset, we'd keep all the variables listed and compiled by MattC137. Since we're not sure of what exactly to do with it as a group yet, this is the best method to ensure we're not limiting ourselves.
 
 * **Who collected the data? When? For what purpose?**
 
 The company that collected the data was **_sportradar_**, the official statistical partner of the NBA. They've been collecting data since April 2020. Their core mission statement and values indicate that the datasets they provide are meant to "empower our users to enjoy, understand, and share the sports they love." They actually brush up on some Data Feminism concepts with their values of democratization of sports data and working to have reliable, respected, and credible data.
 
-The second dataset is compiled by Matt137, but it originated from th official NBA website.
+The second dataset is compiled by MattC137, but it originated from th official NBA website.
 
 * **How was the data collection effort funded?**
 

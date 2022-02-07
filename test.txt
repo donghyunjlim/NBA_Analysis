@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 adsasdasdasd
+=======
+Hello! Hi!
+>>>>>>> 870b66619810f955d5c6dd42d6b8199dc9e1209b

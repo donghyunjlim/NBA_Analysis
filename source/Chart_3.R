@@ -43,10 +43,10 @@ chart_3 <- ggplot(nba, aes(x = minutes_played, y = effective_field_goal)) +
   geom_line() + 
   geom_point() + 
   labs(
-    x = "Average Minutes Played By the Orlando Magic Each Season",
+    x = "Average Minutes Played",
     y = "Average Effective Field Goal Percentage",
-    title = "The Average Effective Field Goal Percentage Vs. Minutes played",
-    subtitle = "Grouped By Each Orlando Magic Season"
+    title = "The Average Effective Field Goal Percentage Vs. Average Minutes played",
+    subtitle = "Grouped By Individual Orlando Magic Season"
   )
 
 

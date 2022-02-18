@@ -41,3 +41,4 @@ chart_1 <- ggplot(nba, aes(x = games, y = points)) +
 
 # Visualization
 chart_1
+

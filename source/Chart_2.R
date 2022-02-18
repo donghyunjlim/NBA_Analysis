@@ -47,7 +47,7 @@ View(nba)
 nba_1 <- nba %>%
   filter(Season == max(Season)) %>%
   group_by(Pos) %>%
-  summarize(mean(X3P.))
+  summarize(mean(X3P., na.rm = TRUE))
 View(nba_1)
 
 # Renaming columns

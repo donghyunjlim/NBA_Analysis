@@ -1,29 +1,256 @@
 ---
 title: "index"
+authors: "Steven Tran, Eric Large, Jinsu Ha, Jason Lim"
+date: "2/18/2022"
 output: html_document
 ---
+# Code Name: BBB
 
-```{r setup, include=FALSE}
+# Winter 2022
+
+# Affiliation:
+**Info 201: Technical Foundations of Informatics (The Information School)**
+**THE UNIVERISITY OF WASHINGTON**
+
+# Project Title
+
+NBA Analysis
+
+# Audience
+
+Our main demographic includes future employers, basketball fans, and perhaps most importantly, basketball players themselves and the owners of these NBA teams. 
+
+# Abstract
+
+Our data analysis project mainly focuses on the success and health of current 
+and former NBA players, with emphasis on the 2021 season as well as the 
+question, "What is the impact of a player's health on their performance?". 
+To accomplish this we will analyze a multitude of player statistics, including 
+but not limited to, All-Star Game appearances (to operationalize success), years 
+played, and injuries, comparing seasonal and career longevity with overall 
+player success. Finally, conducting this insightful analysis is important 
+because it will help shed light on various real-world issues including the 
+mental and physical health of athletes, along with modern day expectations on 
+individual performance in professional basketball.
+
+# Key Words
+<li>NBA stats summary</li>
+<li>Player’s performance</li>
+<li>Career Longevity</li>
+<li>Health</li>
+<li>Points</li>
+
+# Introduction
+
+It seems as though every action, every play, and every call on the basketball 
+court is compiled and recorded as a measurement of the essence of a player. It’s
+what defines them. Fans might use it to back up their argument that Aleksej 
+Pokuševski is the greatest player alive or NBA teams may use it to gauge the 
+value of players. For our group, we wanted to investigate the relationship 
+between the performance of the players and their physical and mental health. 
+These two metrics deeply impact the players, whose income depends on their 
+ability to perform, the owners, as the players create the bulk of their revenue,
+and finally the NBA fans that look forward to seeing their favorite players lace
+up. Some possible ways we can approach this would be to analyze CSV files on 
+each player’s minutes played, fouls drawn, points per game, and efficiency of 
+each shot to determine if there is a relationship. For instance, statistics that
+indicate health and longevity such as games played and minutes per game would be
+analyzed with their production of points and how efficiently the players are 
+getting those points. These findings may impact real world athletes and how they
+can improve their training regimen and our goal is to identify risks that may 
+pop up from our analysis.
+
+# Design Situation
+
+Our main topic of concern is that we want to know the relationship between the 
+success and the health of current and former NBA players in 2021. Key elements 
+of the topic include: taking care of their mental and physical health, and how 
+these relate to their performance. Some questions that we can ask are: "How do 
+NBA players continue to strive for success and not get distracted with always 
+having so much pressure and attention on them?" & "How does the success of a 
+player and their career longevity correlate?"
+
+Human values that are connected to the topic of our concern are personal 
+development, mental health, and strength. As we are focusing on each individual 
+player’s health and longevity that lead to successful/unsuccessful performance 
+in the NBA, these values are significant because they have direct correlations 
+to each other.
+
+The stakeholders of our dataset would be first and foremost the players whom 
+we collect data on, the owners of the NBA teams, and any basketball fan in 
+general. The health and production of these players are fundamentally important 
+to all three of these groups as the NBA is a business at the end of the day. 
+Indirect stakeholders may be athletes of other sports. If there is a correlation
+with a metric of health and production, it could translate to other sports with 
+similar intensities.
+
+The potential benefits of this analysis include increased awareness around 
+(potentially) unrealistic player performance standards and increasingly long 
+careers through load management. By highlighting both injury and subpar 
+performance patterns in players, our analysis supports the health and well-being
+of professional basketball players. Finally, NBA players must constantly adapt 
+to their aging bodies and dynamic environments associated with the game, which 
+is an aspect that our project seeks to address for their aid.
+
+Unanticipated consequences or harms of our analysis might include a deficiency 
+in overall player statistics, as we are narrowing our focus on the 2021 season 
+along with data compiled from the last ten years. Although it’s seemingly 
+unethical to “predict” player injuries, we find it necessary to analyze their 
+minutes, games played, and other stats leading up to previous injuries to 
+prevent future instances. Beyond these factors, we will attempt to be as 
+unbiased and inclusive as possible in our analysis.
+
+# Research Questions
+
+What effect(s) does a conservative approach (e.g., players with high game score 
+playing relatively low minutes; see Kawhi Leonard) have on a player’s overall 
+efficiency for that year? By comparing a players game score (GmSc), minutes 
+played (MP), and field goal percentage (FG%) stats, we can contextualize a star 
+player’s efficiency given their work load.
+
+How does average number of fouls affect a player’s performance during the 
+season?
+
+We could access the average number of fouls a player has received in a single 
+NBA season and plot that with their true shooting percentages, like in Nikhil
+Ajjarapu's data set or compare these values with the total points per game in 
+that season. This is a topic of interest since fouls are the main indicator of 
+how rough or strenuous it is in a basketball game. It is assumed that the health
+of a player that receives on average 3 fouls a game is in more jeopardy than a 
+player who receives 1.
+
+How does the frequency of injury relate to the game performance?
+
+Analyzing games played in a season with their efficiency would be a good 
+indicator how their games missed due to injury impacts their play.
+
+What effect does it have on bench players’ performance when they start the game
+instead of the original starters who are healthy?
+
+By comparing bench and starters, we can better understand how much the increased
+time spent on court impacts their health.
+
+What players have the largest decrease in performance measured by points per 
+game, true shooting percentage, and minutes played?
+
+As said in the question, we can analyze the metrics of performance such as 
+points per game, true shooting, with metrics of health such as minutes played 
+or time spent recovering from injury. This is perhaps the crux of our research 
+and something we'd like to draw conclusions from.
+
+
+# Expected Implications
+Our expected implication is that the healthier the players are, meaning less 
+injuries, more years of playing, and more overall successful seasons, the more
+successful the player can be.
+
+This would ultimately be best for all parties involved as fans get to see their
+favorite players play for longer, the athletes get more opportunities to earn a
+salary doing what they love, and NBA owners get to see quality players that 
+attract more fans to their arenas.
+
+If our research question gets answered and we get correlations between minutes 
+played and production, the implications for the NBA regular season are massive.
+Perhaps it is time to rethink the number of games to preserve the quality of 
+the game.
+
+# Limitations
+Though our analysis will consist of the appropriate amount of data points to 
+best support our thesis and come up with results, the variation of players’ 
+performance is expected as their progress is not always linear. For example,
+players go through injuries, personal matters, or slumps, and later some of 
+those players show good performance in the game but there are also others who
+struggle to be at the same level as they were before. Thus, we’d like to 
+emphasize that the end result of the project will be based on the probability 
+from the collected data and won’t be entirely accurate in future cases. 
+Additionally, if our group decides to take players’ injuries into consideration 
+for the project, we’ll need to assess the severity of each player’s injury as 
+well as they matter to their future performances, which would be difficult.
+# Acknowledgements
+
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r summrary information}
+
+```{r summrary information, echo = TRUE, message = TRUE}
+source("Summary_Information.R")
+
 
 ```
 
-```{r table of summary information}
-
+```{r table of summary information, echo = TRUE}
+source("Table_Summary_Information.R")
+kable()
 ```
 
-```{r chart 1}
-
+```{r chart 1, include = TRUE}
+source("Chart_1.R")
+plot(chart_1)
 ```
+# Purpose of Chart 1:
+The purpose of this dot plot is to demonstrate the relationship between
+the number of games and points scored by each team in the NBA. As it's 
+hard to show all data points, which is approximately over 750 data points, the 
+new data frame is grouped by team which makes it easier to plot. Also,
+by grouping the players by team, we are able to see the differences among these 
+teams. 
 
+# Observation & Insights:
+From this visualization, we have come to a conclusion that the more games the
+players played, less average points were recorded. Looking at the maximum
+of the smooth line from the plot, the highest points were observed around 
+55 games and 68 games. However, as the number of average games increase, there was
+somewhat rapid decrease towards the total number of games in one season. 
 
-```{r chart 2}
-
+```{r chart 2, include = TRUE}
+source("Chart_2.R")
+plot(chart2)
 ```
+# Purpose of Chart 2:
+The purpose of including this bar chart in our report
+is to highlight the modern 3-point efficiency (3P%) of each 
+position type in the NBA. Although our data set includes
+only active starters for all 30 teams during the 2021-22 season,
+it still provides a large sample of current 3-point efficiency 
+ratings at each of the major five positions. 
 
-```{r chart 3}
+# Observations & Insights:
+From this visualization, we capture a snapshot on the current standard
+of 3-point shooting efficiency as it relates to every position. As we have
+seen since the turn of the century, the modern NBA has adapted to the long-range
+shooting style-of-play more than ever, reflected in these averages. Despite not 
+having insight into the center (C) position (due to a lack of data from the 
+2021-22 season), we can still infer that the wing positions (SF, PF) having 
+relatively similar averages (33.1% and 33.3%) to the point guard (PG) position
+(35.1%) means there has been an emphasis placed on this aspect of the game for
+every player, regardless of position. This shows the high level of skill each
+individual must have to even be considered "average" for their position in the
+modern NBA. When considering the context of the 3-point shot,it is hard to 
+imagine a time where the 3-point line did not exist.
 
+```{r chart 3, include = TRUE}
+source("Chart_3.R")
+plot(chart_3)
 ```
+# Purpose of Chart 3:
+The purpose of Chart 3 is to analyze the most injured team this season and to 
+identify the correlation between the average minutes played by each player on 
+the Orlando Magic Vs. the average effective field goal percentage for the team
+that season. This would help us understand the effect of health and injuries 
+on the effectiveness of NBA players. Since the Orlando Magic was the most 
+injured team, it made sense to understand how those injuries impacted their 
+play.  
+We chose a line graph because the position of the dots and the direction
+of the lines make it easier to understand this correlation. 
+
+# Observations & Insights:
+It seems as though the team is most effective when players average from 27 to 
+30 minutes per game. The effective field goal percentages start to plateau and 
+then dip to a low of 0.425 when players average about 40 minutes. 
+This is staggering because the more players get injured, the less effective 
+they are on court, and this may lead to even more injuries. 
+
+setwd("~/Documents/Info201Assignments/final-project-starter-OrangeCowz/source")
+
+

@@ -100,6 +100,13 @@ minutes, games played, and other stats leading up to previous injuries to
 prevent future instances. Beyond these factors, we will attempt to be as 
 unbiased and inclusive as possible in our analysis.
 
+The first citation related to this topic of health and basketball comes from the National Library of Medicine: Effects of age on physical and technical performance in National Basketball Association (NBA) players, where the researchers found a correlation between points per game and age. While this isn't shocking, the more interesting result was that centers tended to decline much more than guards or forwards. In our analysis of the 2021 season, it might be advantageous to see if this is due to the amount of fouls given to the centers compared to the guards.
+
+The second citation is titled The Effect of Fouls on a Player’s Performance in the NBA by Nikhil Ajjarapu. He collected data on player's fouls and their performance measured by points scored before foul and and true shooting percentages before fouls. In particular, he examined Kawhi Leonard's figures, noting a decrease in efficiency as the number of fouls increased. 
+
+The third and final citation is It's a Hard-Knock Life: Game Load, Fatigue, and Injury Risk in the National Basketball Association, by Melanie Lewis, PhD. Their objective is "to examine the relationship among game load, fatigue, and injuries in NBA athletes". This analysis uses data from a 3 season interval from 2012 to 2015 that analyzes the odds of injury based on fatigue and minutes played. They found that "The odds of injury increased by 2.87% (P < .001) for each 96 minutes played and decreased by 15.96% (P < .001) for each day of rest". This has enormous implications especially in an 82 game regular season.
+
+
 # Research Questions
 
 What effect(s) does a conservative approach (e.g., players with high game score 
@@ -138,6 +145,23 @@ points per game, true shooting, with metrics of health such as minutes played
 or time spent recovering from injury. This is perhaps the crux of our research 
 and something we'd like to draw conclusions from.
 
+# The dataset
+
+Since our project requires the compilation of around 300 NBA players, there will be some players with different numbers of rows depending on how long they played in the league. These 2 datasets are the ones we're planning on using the most.
+
+The research questions asked above can be answered with these datasets. Especially since there is so much data available, we'd be able to expand or compress our scope depending on our initial results. Also, since our questions were derived with these statistics in mind, we can group the variables we wish to analyze by player and see if there is a correlation.
+
+For the question, "How does average number of fouls affect a player’s performance during the season?", we could compile the number of fouls a player receives and match that up with their production in points, efficiency, and perhaps assists or rebounds.
+
+The National Basketball Association's players are represented in the data. The rows represent each season the NBA players had and the 30 columns represents statistics on their on court play such as minutes per game or steals.
+
+The company that collected the data was sportradar, the official statistical partner of the NBA. They've been collecting data since April 2020. Their core mission statement and values indicate that the datasets they provide are meant to "empower our users to enjoy, understand, and share the sports they love." They actually brush up on some Data Feminism concepts with their values of democratization of sports data and working to have reliable, respected, and credible data.
+
+The NBA is likely to benefit from the data and the service they provide, which is entertainment in the form of a basketball game, is more likely to boom. The more spectacular the statistics or the more unbelievable the headline, the more fans the NBA would likely attract.
+
+The data is validated and held secure by the actual organization it comes from: the NBA. It is as trustworthy and credible as any possible dataset can be. Though the NBA would gain a lot to have exaggerated stats, this is unlikely as all games are recorded and the statistics are often recorded live.
+
+I obtained the data through the Basketball-Reference's own CSV to Excel function. I also credited the source of the data in the table above as well as the References section below.
 
 # Expected Implications
 Our expected implication is that the healthier the players are, meaning less 
@@ -166,7 +190,9 @@ from the collected data and won’t be entirely accurate in future cases.
 Additionally, if our group decides to take players’ injuries into consideration 
 for the project, we’ll need to assess the severity of each player’s injury as 
 well as they matter to their future performances, which would be difficult.
-# Acknowledgements
+
+# Acknowledgements: Samuel, Prof. Hendry, & all the TAs that have helped us thus 
+far. 
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -254,3 +280,21 @@ they are on court, and this may lead to even more injuries.
 setwd("~/Documents/Info201Assignments/final-project-starter-OrangeCowz/source")
 
 
+
+# References
+
+Ajjarapu, Nikhil. “The Effect of Fouls on a Player's Performance in the NBA.” Medium, Medium, 6 June 2019, https://medium.com/@nikhil.ajjarapu/the-effect-of-fouls-on-a-players-performance-in-the-nba-42a0149a1d20.
+
+“Basketball Statistics and History.” Basketball, https://www.basketball-reference.com/.
+
+Introduction: Why Data Science Needs Feminism. (2020). In Data Feminism. Retrieved from https://data-feminism.mitpress.mit.edu/pub/frfa9szd
+
+Kalén, Anton, et al. “Effects of Age on Physical and Technical Performance in National Basketball Association (NBA) Players.” Research in Sports Medicine (Print), U.S. National Library of Medicine, https://pubmed.ncbi.nlm.nih.gov/32847370/.
+
+Lewis, Melanie. “It's a Hard-Knock Life: Game Load, Fatigue, and Injury Risk in the National Basketball Association.” Journal of Athletic Training, National Athletic Trainers Association, May 2018, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107769/.
+
+MattC137. “Open_Data/Data/Sports/NBA at Master · Mattc137/open_data.” GitHub, https://github.com/MattC137/Open_Data/tree/master/Data/Sports/NBA.
+
+Medina, Mark. “How NBA Players and Coaches Navigated This Season a Year after Experiencing the Bubble.” USA Today, Gannett Satellite Information Network, 12 June 2021, https://www.usatoday.com/story/sports/2021/06/11/how-nba-players-coaches-navigated-season-after-bubble-experience/7632303002/.
+
+Sundberg, Andrew. “College Basketball Dataset.” Kaggle, 16 Mar. 2021, https://www.kaggle.com/andrewsundberg/college-basketball-dataset.

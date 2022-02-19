@@ -191,8 +191,7 @@ Additionally, if our group decides to take players’ injuries into consideratio
 for the project, we’ll need to assess the severity of each player’s injury as 
 well as they matter to their future performances, which would be difficult.
 
-# Acknowledgements: Samuel, Prof. Hendry, & all the TAs that have helped us thus 
-# far. 
+# Acknowledgements: Samuel, Prof. Hendry, & all the TAs that have helped us thus far. 
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -214,6 +213,7 @@ knitr::kable(final_table)
 source("../source/Chart_1.R")
 plot(chart_1)
 ```
+
 # Purpose of Chart 1:
 The purpose of this dot plot is to demonstrate the relationship between
 the number of games and points scored by each team in the NBA. As it's 
@@ -233,6 +233,7 @@ somewhat rapid decrease towards the total number of games in one season.
 source("../source/Chart_2.R")
 plot(chart2)
 ```
+
 # Purpose of Chart 2:
 The purpose of including this bar chart in our report
 is to highlight the modern 3-point efficiency (3P%) of each 
@@ -259,6 +260,7 @@ imagine a time where the 3-point line did not exist.
 source("../source/Chart_3.R")
 plot(chart_3)
 ```
+
 # Purpose of Chart 3:
 The purpose of Chart 3 is to analyze the most injured team this season and to 
 identify the correlation between the average minutes played by each player on 

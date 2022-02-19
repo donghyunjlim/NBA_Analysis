@@ -192,7 +192,7 @@ for the project, we’ll need to assess the severity of each player’s injury a
 well as they matter to their future performances, which would be difficult.
 
 # Acknowledgements: Samuel, Prof. Hendry, & all the TAs that have helped us thus 
-far. 
+# far. 
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)

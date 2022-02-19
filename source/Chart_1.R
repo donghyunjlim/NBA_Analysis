@@ -21,7 +21,7 @@
 
 library(ggplot2)
 library(tidyverse)
-NBA <- read.csv("nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
+NBA <- read.csv("../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
 
 # Data frame with mean value of games played and points by Team
 nba <- NBA %>%

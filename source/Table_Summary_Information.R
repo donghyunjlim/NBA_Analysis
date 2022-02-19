@@ -16,11 +16,9 @@
 
 # Load the necessary libraries
 library("tidyverse")
-install.packages("data.table")
-library("data.table")
 
 # Loading dataframe file `nba_final_dataframe.csv` into a variable called `nba`.
-nba <- read.csv(file = "nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
+nba <- read.csv(file = "../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
 View(nba)
 
 # list of the names of the columns on the original datasets
@@ -66,7 +64,6 @@ tov <- agg_table%>%
 # final_table <- left_join(age, mp) %>%
   # left_join(fg)%>% left_join(blk)%>% left_join(stl)%>% left_join(pts)%>% left_join(tov)%>% setDT()
 final_table <- list(age, mp, fg, blk, stl, pts, tov)%>% #put all data frames into a list
-  reduce(full_join, by = "Tm")%>% # merge everything in the lsit by "Tm"
-  setDT() # change the data.frame to data.table for the future use
+  reduce(full_join, by = "Tm") # merge everything in the lsit by "Tm"
 
 final_table

@@ -200,18 +200,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r summrary information, echo = TRUE, message = TRUE}
-source("Summary_Information.R")
+source("../source/Summary_Information.R")
 
 
 ```
 
 ```{r table of summary information, echo = TRUE}
-source("Table_Summary_Information.R")
-kable()
+source("../source/Table_Summary_Information.R")
+knitr::kable(final_table)
 ```
 
 ```{r chart 1, include = TRUE}
-source("Chart_1.R")
+source("../source/Chart_1.R")
 plot(chart_1)
 ```
 # Purpose of Chart 1:
@@ -230,7 +230,7 @@ of the smooth line from the plot, the highest points were observed around
 somewhat rapid decrease towards the total number of games in one season. 
 
 ```{r chart 2, include = TRUE}
-source("Chart_2.R")
+source("../source/Chart_2.R")
 plot(chart2)
 ```
 # Purpose of Chart 2:
@@ -256,7 +256,7 @@ modern NBA. When considering the context of the 3-point shot,it is hard to
 imagine a time where the 3-point line did not exist.
 
 ```{r chart 3, include = TRUE}
-source("Chart_3.R")
+source("../source/Chart_3.R")
 plot(chart_3)
 ```
 # Purpose of Chart 3:

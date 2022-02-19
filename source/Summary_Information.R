@@ -4,7 +4,7 @@
 library("tidyverse")
 
 # Loading dataframe file `nba_final_dataframe.csv` into a variable called `nba`.
-nba <- read.csv(file = "nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
+nba <- read.csv(file = "../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
 View(nba)
 
 # Summarizing Values from the `nba` dataframe

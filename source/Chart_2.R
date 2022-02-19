@@ -36,7 +36,7 @@
 library("tidyverse")
 
 # Loading in the `nba` dataframe
-nba <- read.csv(file = "nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
+nba <- read.csv(file = "../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
 View(nba)
 
 

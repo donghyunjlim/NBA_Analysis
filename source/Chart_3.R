@@ -29,7 +29,7 @@ library(ggplot2)
 library(tidyverse)
 
 # Load dataframe
-NBA <- read.csv("nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
+NBA <- read.csv("../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
 
 # Use dplyr to group the dataframe by season and then summarize the average 
 # minutes played and average effective field goal percentage. 

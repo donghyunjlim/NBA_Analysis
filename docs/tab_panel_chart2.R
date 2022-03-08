@@ -41,11 +41,11 @@ server <- function(input, output) {
       geom_text(aes(label = X3P.), vjust = 2, size = 3) +
       labs(
         x = "Position",
-        y = "3-Point Percentage (%)",
-        title = "Average 3P% By Position",
+        y = "Shot Percentage (%)",
+        title = "Average Shooting % By Position",
         subtitle = "2021-22 NBA Season",
-        caption = "A summary of 3P% averages by position in the NBA.",
-        alt = "A summary of 2021-22 3P% averages by position in the NBA."
-      )
+        caption = "A summary of 2P% and 3P% averages by position in the NBA.",
+        alt = "A summary of 2021-22 2P% and 3P% averages by position in the NBA."
+        )
   })
 }

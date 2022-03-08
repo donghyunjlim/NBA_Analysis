@@ -5,23 +5,37 @@
 # Libraries
 library(shiny)
 library(tidyverse)
+
 #-------------------------------------------------------------------------------
 # Introduction Panel
 tab_panel_intro <- tabPanel(
   "Introduction",
-  titlePanel("NBA Basketball Analysis"),
+  
+  # Render an HTML document in an output area
   fluidPage(
-    # Use the column function to "divide up" the row
-    # Here the row comprises ONE column (which takes up 12 column units)
+    h1("NBA Basketball Analysis"),
+    img(src = "nba_logo.png", height = 250, width = 250),
     column(
       12,
-      
-      h1("NBA Basketball Analysis"),
-      p(strong("This is a fluid row that takes up all 12 columns")),
-      p(para1),
-      
+      htmlOutput("inc")
     ),
     hr(),
     print("INFO-201 (Winter 2022) AF-2: BBB")
   )
 )
+#-------------------------------------------------------------------------------
+# app_ui.R code
+#ui <- fluidPage(
+  #tab_panel_intro
+#)
+
+# app_server.R function---------------------------------------------------------
+#server <- function(input, output) {
+#getPage<-function() {
+  #return(includeHTML("C:/Users/ericl/Documents/INFO-201/Project/final-project-starter-OrangeCowz/docs/tab_panel_intro_doc.html"))
+#}
+#output$inc<-renderUI({getPage()})
+#}
+#-------------------------------------------------------------------------------
+# Run the application 
+#shinyApp(ui = ui, server = server)

@@ -82,7 +82,6 @@ nba_6 <- round_df(nba_5)
 
 nba_final <- left_join(nba_3, nba_6, by = "Pos")
 
-
 #-------------------------------------------------------------------------------
 # Plotting the visualization (bar chart)
 chart2 <- ggplot(nba_final, aes(x = Pos, y = X3P.)) +

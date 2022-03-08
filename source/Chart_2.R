@@ -36,9 +36,8 @@
 library("tidyverse")
 
 # Loading in the `nba` dataframe
-nba <- read.csv(file = "../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
-View(nba)
-
+# nba <- read.csv(file = "../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
+nba <- read.csv(file = "C:/Users/ericl/Documents/INFO-201/Project/final-project-starter-OrangeCowz/data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
 
 # Comparing the average 3-point percentage (3p%) of each pure position player
 # (e.g., PG, SG, SF, PF, C) in the 2021-22 NBA season using a bar chart.
@@ -48,12 +47,11 @@ nba_1 <- nba %>%
   filter(Season == max(Season)) %>%
   group_by(Pos) %>%
   summarize(mean(X3P., na.rm = TRUE))
-View(nba_1)
 
 # Renaming columns
 colnames(nba_1) <- c( "Pos", "X3P.")
 nba_2 <- nba_1[-c(2, 4, 6, 8), ]
-View(nba_2)
+
 
 # Rounding 3P% Values
 round_df <- function(nba_2) {
@@ -62,10 +60,32 @@ round_df <- function(nba_2) {
   nba_2
 }
 nba_3 <- round_df(nba_2)
-View(nba_3)
 
+#-------------------------------------------------------------------------------
+nba_4 <- nba %>%
+  filter(Season == max(Season)) %>%
+  group_by(Pos) %>%
+  summarize(mean(X2P., na.rm = TRUE))
+
+# Renaming columns
+colnames(nba_4) <- c( "Pos", "X2P.")
+nba_5 <- nba_4[-c(2, 4, 6, 8), ]
+
+
+# Rounding 3P% Values
+round_df <- function(nba_5) {
+  X2P. <- sapply(nba_5, mode) == 'numeric'
+  nba_5[X2P.] <-  round(nba_5[X2P.], 3)
+  nba_5
+}
+nba_6 <- round_df(nba_5)
+
+nba_final <- left_join(nba_3, nba_6, by = "Pos")
+
+
+#-------------------------------------------------------------------------------
 # Plotting the visualization (bar chart)
-chart2 <- ggplot(nba_3, aes(x = Pos, y = X3P.)) +
+chart2 <- ggplot(nba_final, aes(x = Pos, y = X3P.)) +
   geom_col(fill = "#FFA500") +
   geom_text(aes(label = X3P.), vjust = 2, size = 3) +
   labs(
@@ -76,6 +96,29 @@ chart2 <- ggplot(nba_3, aes(x = Pos, y = X3P.)) +
     caption = "A summary of 3P% averages by position in the NBA.",
     alt = "A summary of 2021-22 3P% averages by position in the NBA."
   )
+
+#chart2 <- ggplot(nba_final, aes(x = Pos, y = y_var)) +
+  #geom_col(fill = "#FFA500") +
+  #geom_text(aes(label = X3P.), vjust = 2, size = 3) +
+  #labs(
+    #x = "Position",
+    #y = "Shot Percentage (%)",
+    #title = "Average Shooting % By Position",
+    #subtitle = "2021-22 NBA Season",
+    #caption = "A summary of 2P% and 3P% averages by position in the NBA.",
+    #alt = "A summary of 2021-22 2P% and 3P% averages by position in the NBA."
+  #)
+
+#chart2 <- ggplot(data = nba_final, aes_string(x = "Position", y = input$y_var)) +
+  #geom_bar(stat = "identity", width=0.8) +
+  #labs(
+    #x = "Position",
+    #y = input$y_var,
+    #title = "Average Shooting % By Position",
+    #subtitle = "2021-22 NBA Season",
+    #caption = "A summary of 2P% and 3P% averages by position in the NBA.",
+    #alt = "A summary of 2021-22 2P% and 3P% averages by position in the NBA."
+  #)
 
 # Final Visualization
 chart2

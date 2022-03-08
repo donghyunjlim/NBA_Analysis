@@ -51,3 +51,7 @@ chart_3 <- ggplot(nba, aes(x = minutes_played, y = effective_field_goal)) +
 
 
 chart_3
+
+
+
+

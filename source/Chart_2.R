@@ -81,10 +81,30 @@ round_df <- function(nba_5) {
 nba_6 <- round_df(nba_5)
 
 nba_final <- left_join(nba_3, nba_6, by = "Pos")
+#-------------------------------------------------------------------------------
+nba_7 <- nba %>%
+  filter(Season == max(Season)) %>%
+  group_by(Pos) %>%
+  summarize(mean(FT., na.rm = TRUE))
+
+# Renaming columns
+colnames(nba_7) <- c( "Pos", "FT.")
+nba_8 <- nba_7[-c(2, 4, 6, 8), ]
+
+
+# Rounding 3P% Values
+round_df <- function(nba_8) {
+  FT. <- sapply(nba_8, mode) == 'numeric'
+  nba_8[FT.] <-  round(nba_8[FT.], 3)
+  nba_8
+}
+nba_9 <- round_df(nba_8)
+
+final_nba <- left_join(nba_final, nba_9, by = "Pos")
 
 #-------------------------------------------------------------------------------
 # Plotting the visualization (bar chart)
-chart2 <- ggplot(nba_final, aes(x = Pos, y = X3P.)) +
+chart_2 <- ggplot(final_nba, aes(x = Pos, y = X3P.)) +
   geom_col(fill = "#FFA500") +
   geom_text(aes(label = X3P.), vjust = 2, size = 3) +
   labs(
@@ -120,4 +140,4 @@ chart2 <- ggplot(nba_final, aes(x = Pos, y = X3P.)) +
   #)
 
 # Final Visualization
-chart2
+chart_2

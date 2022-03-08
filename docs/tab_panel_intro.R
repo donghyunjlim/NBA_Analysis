@@ -30,12 +30,12 @@ tab_panel_intro <- tabPanel(
 #)
 
 # app_server.R function---------------------------------------------------------
-#server <- function(input, output) {
-#getPage<-function() {
-  #return(includeHTML("C:/Users/ericl/Documents/INFO-201/Project/final-project-starter-OrangeCowz/docs/tab_panel_intro_doc.html"))
-#}
-#output$inc<-renderUI({getPage()})
-#}
+server <- function(input, output) {
+  getPage<-function() {
+    return(includeHTML("tab_panel_intro_doc.html"))
+  }
+  output$inc<-renderUI({getPage()})
+} 
 #-------------------------------------------------------------------------------
 # Run the application 
 #shinyApp(ui = ui, server = server)

@@ -7,7 +7,7 @@ library(tidyverse)
 library(ggplot2)
 library(plotly)
 library(shiny)
-source("C:/Users/ericl/Documents/INFO-201/Project/final-project-starter-OrangeCowz/source/Chart_2.R")
+source("../source/Chart_2.R")
 #
 # ------------------------------------------------------------------------------
 # Code for interactive visual of Chart 2
@@ -31,14 +31,15 @@ tab_panel_chart2 <- tabPanel(
       plotlyOutput("plot")
   ),
   p("Description: The above bar plot aims to showcase the 2021-22 season averages for
-    all shot types in the NBA. Each bar represents one of the five positions used in
-    modern basketball: the Point Guard, Shooting Guard, Small Forward, Power Forward,
+    all shot types by starting players in the NBA. Each bar represents one of the five positions
+    used in modern basketball: the Point Guard, Shooting Guard, Small Forward, Power Forward,
     and Center. Moreover, the interactive widget located above the plot allows you 
     to browse shot types, including 2-point, 3-point, and free throw percent averages.
-    This allows users to easily visualize the different strengths possessed at each position.
-    It also provides a snapshot into the current trends on shooting efficiency in the 
-    2021-22 season, setting a standard for athletes of all calibers who might model
-    their goals after NBA players, as they are some of the best basketball players in the world.")
+    Although in decimal form, these can be converted into real-world percentages used by players
+    to analyze their performance. This allows users to easily visualize the different strengths
+    possessed at each position. It also provides a snapshot into the current trends on shooting 
+    efficiency in the 2021-22 season, setting a standard for athletes of all calibers who might model
+    their goals after NBA players, as they are some of the best basektball players in the world.")
   )
 
 # app_server.R

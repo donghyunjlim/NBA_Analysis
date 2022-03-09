@@ -21,7 +21,7 @@ NBA <- read.csv("../docs/nba_final_dataframe.csv", header = TRUE, stringsAsFacto
 # Use dplyr to group the dataframe by season and then summarize the average 
 # minutes played and average effective field goal percentage. 
 
-nba <- NBA %>%
+nba_ste <- NBA %>%
   group_by(Season) %>%
   summarize(effective_field_goal = mean(eFG., na.rm = TRUE), 
             field_goal_percent = mean(FG., na.rm = TRUE), 
@@ -32,7 +32,7 @@ nba <- NBA %>%
             team = "ORL")
 
 # Create a line graph
-chart_3 <- ggplot(nba, aes(x = minutes_played, y = effective_field_goal)) + 
+chart_3 <- ggplot(nba_ste, aes(x = minutes_played, y = effective_field_goal)) + 
   geom_line() + 
   geom_point() + 
   labs(
@@ -71,18 +71,17 @@ tab_panel_chart3 <- tabPanel(
   titlePanel("The Average Y-Variable Percentage Vs. Years"),
     sidebarPanel(
       helpText("Select Y-Variable"),
-      selectInput("y_var",
+      selectInput("y_var1",
                   label = "Choose to display different Y-Variables",
                   choices = list("Effective Field Goal Percentage" = "effective_field_goal",
                                  "Field Goal Percentage" = "field_goal_percent",
                                  "Three Point Percentage" = "three_point_percent",
-                                 "Two Point Percentage" = "two_point_percent",
                                  "Free Throw Percentage" = "free_throw_percent"),
-                  selected = "eFG.")
+                  selected = "effective_field_goal")
       ),
     
     mainPanel(
-      plotlyOutput("plot")
+      plotlyOutput("plot3")
     ),
   p("The average percentages of a player's free throws, two pointer, three pointers,
     field goals, and effective field goals were plotted against the average minutes played by the Orlando 

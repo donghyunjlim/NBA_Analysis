@@ -28,7 +28,7 @@ tab_panel_chart2 <- tabPanel(
     
   # Show a plot of the generated distribution
     mainPanel(
-      plotlyOutput("plot")
+      plotlyOutput("plot2")
   ),
   p("Description: The above bar plot aims to showcase the 2021-22 season averages for
     all shot types by starting players in the NBA. Each bar represents one of the five positions

@@ -1,0 +1,401 @@
+Player_Id,Player_Id_Str,Player,Position,Short_Name,Team_Id,Team,Salary,Season,Height,Feet,Inches,Weight,DOB,Draft_Year,Draft_Round,Draft_Pick,Draft_Team
+110,kobe-bryant,Kobe Bryant,SF,LAL,los-angeles-lakers,Los Angeles Lakers,25000000,2020,NA,NA,NA,NA,NA,1996,1,13,CHA
+1966,lebron-james,LeBron James,SF,CLE,cleveland-cavaliers,Cleveland Cavaliers,22970500,2020,6.75,6,9,250,1984-12-30,2003,1,1,CLE
+1975,carmelo-anthony,Carmelo Anthony,PF,NY,new-york-knicks,New York Knicks,22875000,2020,6.583333333,6,7,238,1984-05-29,2003,1,3,DEN
+2384,dwight-howard,Dwight Howard,C,HOU,houston-rockets,Houston Rockets,22359364,2020,6.833333333,6,10,260,1985-12-08,2004,1,1,ORL
+1977,chris-bosh,Chris Bosh,PF,MIA,miami-heat,Miami Heat,22192730,2020,NA,NA,NA,NA,NA,2003,1,4,TOR
+2779,chris-paul,Chris Paul,PG,LAC,la-clippers,LA Clippers,21468695,2020,6,6,0,175,1985-05-06,2005,1,4,NO
+3202,kevin-durant,Kevin Durant,PF,OKC,oklahoma-city-thunder,Oklahoma City Thunder,20158622,2020,6.833333333,6,10,225,1988-09-29,2007,1,2,SEA
+3456,derrick-rose,Derrick Rose,PG,CHI,chicago-bulls,Chicago Bulls,20093064,2020,6.166666667,6,2,200,1988-10-04,2008,1,1,CHI
+1987,dwyane-wade,Dwyane Wade,G,MIA,miami-heat,Miami Heat,20000000,2020,NA,NA,NA,NA,NA,2003,1,5,MIA
+2983,lamarcus-aldridge,LaMarcus Aldridge,C,SA,san-antonio-spurs,San Antonio Spurs,19689000,2020,6.916666667,6,11,265,1985-07-19,2006,1,2,CHI
+3442,deandre-jordan,DeAndre Jordan,C,LAC,la-clippers,LA Clippers,19689000,2020,6.916666667,6,11,265,1988-07-21,2008,2,35,LAC
+3448,brook-lopez,Brook Lopez,C,BKN,brooklyn-nets,Brooklyn Nets,19689000,2020,7,7,0,282,1988-04-01,2008,1,10,NJ
+3449,kevin-love,Kevin Love,PF,CLE,cleveland-cavaliers,Cleveland Cavaliers,19689000,2020,6.666666667,6,8,247,1988-09-07,2008,1,5,MEM
+3206,marc-gasol,Marc Gasol,C,MEM,memphis-grizzlies,Memphis Grizzlies,19688000,2020,6.916666667,6,11,255,1985-01-29,2007,2,48,LAL
+3989,blake-griffin,Blake Griffin,PF,LAC,la-clippers,LA Clippers,18907726,2020,6.75,6,9,250,1989-03-16,2009,1,1,LAC
+3015,paul-millsap,Paul Millsap,PF,ATL,atlanta-hawks,Atlanta Hawks,18671659,2020,6.583333333,6,7,257,1985-02-10,2006,2,47,UTAH
+4251,paul-george,Paul George,SG,IND,indiana-pacers,Indiana Pacers,17120106,2020,6.666666667,6,8,220,1990-05-02,2010,1,10,IND
+3468,russell-westbrook,Russell Westbrook,PG,OKC,oklahoma-city-thunder,Oklahoma City Thunder,16744218,2020,6.25,6,3,200,1988-11-12,2008,1,4,SEA
+6442,kyrie-irving,Kyrie Irving,PG,CLE,cleveland-cavaliers,Cleveland Cavaliers,16407501,2020,6.166666667,6,2,199,1992-03-23,2011,1,1,CLE
+6447,enes-kanter,Enes Kanter,C,OKC,oklahoma-city-thunder,Oklahoma City Thunder,16407500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4260,greg-monroe,Greg Monroe,C,MIL,milwaukee-bucks,Milwaukee Bucks,16407500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6430,jimmy-butler,Jimmy Butler,SF,CHI,chicago-bulls,Chicago Bulls,16407500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4032,wesley-matthews,Wesley Matthews,SG,DAL,dallas-mavericks,Dallas Mavericks,16407500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6450,kawhi-leonard,Kawhi Leonard,SF,SA,san-antonio-spurs,San Antonio Spurs,16407500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6440,tobias-harris,Tobias Harris,PF,ORL,orlando-magic,Orlando Magic,16000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4258,demarcus-cousins,DeMarcus Cousins,C,SAC,sacramento-kings,Sacramento Kings,15851950,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4237,john-wall,John Wall,PG,WSH,washington-wizards,Washington Wizards,15851950,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3992,james-harden,James Harden,SG,HOU,houston-rockets,Houston Rockets,15756438,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3436,roy-hibbert,Roy Hibbert,C,LAL,los-angeles-lakers,Los Angeles Lakers,15592217,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3431,eric-gordon,Eric Gordon,SG,NO,new-orleans-pelicans,New Orleans Pelicans,15514031,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6475,klay-thompson,Klay Thompson,SG,GS,golden-state-warriors,Golden State Warriors,15501000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4249,gordon-hayward,Gordon Hayward,SF,UTAH,utah-jazz,Utah Jazz,15409570,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6466,chandler-parsons,Chandler Parsons,SF,DAL,dallas-mavericks,Dallas Mavericks,15361500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3423,goran-dragic,Goran Dragic,PG,MIA,miami-heat,Miami Heat,14783000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6609,khris-middleton,Khris Middleton,SF,MIL,milwaukee-bucks,Milwaukee Bucks,14700000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6589,draymond-green,Draymond Green,PF,GS,golden-state-warriors,Golden State Warriors,14260870,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6474,tristan-thompson,Tristan Thompson,PF,CLE,cleveland-cavaliers,Cleveland Cavaliers,14260870,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3428,danilo-gallinari,Danilo Gallinari,PF,DEN,denver-nuggets,Denver Nuggets,14000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6443,reggie-jackson,Reggie Jackson,PG,DET,detroit-pistons,Detroit Pistons,13913044,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2747,andrew-bogut,Andrew Bogut,C,GS,golden-state-warriors,Golden State Warriors,13800000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3970,demarre-carroll,DeMarre Carroll,F,TOR,toronto-raptors,Toronto Raptors,13600000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2389,al-jefferson,Al Jefferson,C,CHA,charlotte-hornets,Charlotte Hornets,13500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6448,brandon-knight,Brandon Knight,G,PHX,phoenix-suns,Phoenix Suns,13500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4238,eric-bledsoe,Eric Bledsoe,SG,PHX,phoenix-suns,Phoenix Suns,13500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1015,tony-parker,Tony Parker,G,SA,san-antonio-spurs,San Antonio Spurs,13437500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3224,joakim-noah,Joakim Noah,C,CHI,chicago-bulls,Chicago Bulls,13400000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3416,nicolas-batum,Nicolas Batum,PF,CHA,charlotte-hornets,Charlotte Hornets,13125306,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+984,tyson-chandler,Tyson Chandler,C,PHX,phoenix-suns,Phoenix Suns,13000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1713,nene-hilario,Nene Hilario,C,WSH,washington-wizards,Washington Wizards,13000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4011,ricky-rubio,Ricky Rubio,PG,MIN,minnesota-timberwolves,Minnesota Timberwolves,12700000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3447,robin-lopez,Robin Lopez,C,NY,new-york-knicks,New York Knicks,12650000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3005,rudy-gay,Rudy Gay,SF,SAC,sacramento-kings,Sacramento Kings,12403101,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3439,serge-ibaka,Serge Ibaka,C,OKC,oklahoma-city-thunder,Oklahoma City Thunder,12250000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3453,nikola-pekovic,Nikola Pekovic,C,MIN,minnesota-timberwolves,Minnesota Timberwolves,12100000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3012,kyle-lowry,Kyle Lowry,PG,TOR,toronto-raptors,Toronto Raptors,12000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4257,derrick-favors,Derrick Favors,C,UTAH,utah-jazz,Utah Jazz,12000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3213,al-horford,Al Horford,C,ATL,atlanta-hawks,Atlanta Hawks,12000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2769,amir-johnson,Amir Johnson,F,BOS,boston-celtics,Boston Celtics,12000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6479,kemba-walker,Kemba Walker,PG,CHA,charlotte-hornets,Charlotte Hornets,12000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2386,andre-iguodala,Andre Iguodala,SF,GS,golden-state-warriors,Golden State Warriors,11710456,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3975,stephen-curry,Stephen Curry,PG,GS,golden-state-warriors,Golden State Warriors,11370786,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6478,nikola-vucevic,Nikola Vucevic,C,ORL,orlando-magic,Orlando Magic,11250000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6433,kenneth-faried,Kenneth Faried,F,DEN,denver-nuggets,Denver Nuggets,11235955,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3244,thaddeus-young,Thaddeus Young,PF,BKN,brooklyn-nets,Brooklyn Nets,11235955,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2758,marcin-gortat,Marcin Gortat,C,WSH,washington-wizards,Washington Wizards,11217391,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3983,tyreke-evans,Tyreke Evans,G,NO,new-orleans-pelicans,New Orleans Pelicans,10734586,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3995,jrue-holiday,Jrue Holiday,PG,NO,new-orleans-pelicans,New Orleans Pelicans,10595507,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1000,brendan-haywood,Brendan Haywood,C,POR,portland-trail-blazers,Portland Trail Blazers,10522500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3194,wilson-chandler,Wilson Chandler,F,BKN,brooklyn-nets,Brooklyn Nets,10449438,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2751,monta-ellis,Monta Ellis,SG,IND,indiana-pacers,Indiana Pacers,10300000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2429,luol-deng,Luol Deng,F,MIA,miami-heat,Miami Heat,10151612,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1026,gerald-wallace,Gerald Wallace,SF,PHI,philadelphia-76ers,Philadelphia 76ers,10105855,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3978,demar-derozan,DeMar DeRozan,SF,TOR,toronto-raptors,Toronto Raptors,10050000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3988,danny-green,Danny Green,SF,SA,san-antonio-spurs,San Antonio Spurs,10000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3233,tiago-splitter,Tiago Splitter,C,ATL,atlanta-hawks,Atlanta Hawks,9756250,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3209,jeff-green,Jeff Green,PF,MEM,memphis-grizzlies,Memphis Grizzlies,9650000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1017,zach-randolph,Zach Randolph,F,MEM,memphis-grizzlies,Memphis Grizzlies,9638555,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3195,mike-conley,Mike Conley,PG,MEM,memphis-grizzlies,Memphis Grizzlies,9588426,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3026,rajon-rondo,Rajon Rondo,PG,SAC,sacramento-kings,Sacramento Kings,9500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6429,alec-burks,Alec Burks,SG,UTAH,utah-jazz,Utah Jazz,9463484,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3414,omer-asik,Omer Asik,C,NO,new-orleans-pelicans,New Orleans Pelicans,9213483,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4244,lance-stephenson,Lance Stephenson,G,MEM,memphis-grizzlies,Memphis Grizzlies,9000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6468,iman-shumpert,Iman Shumpert,SG,CLE,cleveland-cavaliers,Cleveland Cavaliers,8988765,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3986,taj-gibson,Taj Gibson,C,CHI,chicago-bulls,Chicago Bulls,8500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+261,kevin-garnett,Kevin Garnett,PF,MIN,minnesota-timberwolves,Minnesota Timberwolves,8500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3412,ryan-anderson,Ryan Anderson,PF,NO,new-orleans-pelicans,New Orleans Pelicans,8500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3997,brandon-jennings,Brandon Jennings,G,ORL,orlando-magic,Orlando Magic,8344497,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+609,dirk-nowitzki,Dirk Nowitzki,F,DAL,dallas-mavericks,Dallas Mavericks,8333334,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3191,corey-brewer,Corey Brewer,F,HOU,houston-rockets,Houston Rockets,8229375,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2426,trevor-ariza,Trevor Ariza,SF,HOU,houston-rockets,Houston Rockets,8193030,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2754,channing-frye,Channing Frye,F,ORL,orlando-magic,Orlando Magic,8193029,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4248,al-farouq-aminu,Al-Farouq Aminu,PF,POR,portland-trail-blazers,Portland Trail Blazers,8042895,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3438,george-hill,George Hill,PG,IND,indiana-pacers,Indiana Pacers,8000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3187,arron-afflalo,Arron Afflalo,G,NY,new-york-knicks,New York Knicks,8000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3450,o.j.-mayo,O.J. Mayo,SG,MIL,milwaukee-bucks,Milwaukee Bucks,8000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6461,markieff-morris,Markieff Morris,PF,WSH,washington-wizards,Washington Wizards,8000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4015,jeff-teague,Jeff Teague,PG,ATL,atlanta-hawks,Atlanta Hawks,8000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2767,ersan-ilyasova,Ersan Ilyasova,F,ORL,orlando-magic,Orlando Magic,7900000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4240,avery-bradley,Avery Bradley,PG,BOS,boston-celtics,Boston Celtics,7730337,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3444,kosta-koufos,Kosta Koufos,C,SAC,sacramento-kings,Sacramento Kings,7700000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2167,boris-diaw,Boris Diaw,C,SA,san-antonio-spurs,San Antonio Spurs,7500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+996,pau-gasol,Pau Gasol,PF,CHI,chicago-bulls,Chicago Bulls,7448760,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2806,jose-calderon,Jose Calderon,G,NY,new-york-knicks,New York Knicks,7402812,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3024,jj-redick,JJ Redick,SG,LAC,la-clippers,LA Clippers,7085000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6583,anthony-davis,Anthony Davis,PF,NO,new-orleans-pelicans,New Orleans Pelicans,7070730,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6446,cory-joseph,Cory Joseph,SG,TOR,toronto-raptors,Toronto Raptors,7000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2797,marvin-williams,Marvin Williams,F,CHA,charlotte-hornets,Charlotte Hornets,7000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2799,lou-williams,Lou Williams,SG,LAL,los-angeles-lakers,Los Angeles Lakers,7000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3235,rodney-stuckey,Rodney Stuckey,PG,IND,indiana-pacers,Indiana Pacers,7000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4259,ed-davis,Ed Davis,C,POR,portland-trail-blazers,Portland Trail Blazers,6980802,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6472,isaiah-thomas,Isaiah Thomas,PG,BOS,boston-celtics,Boston Celtics,6912869,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6581,jae-crowder,Jae Crowder,PF,BOS,boston-celtics,Boston Celtics,6796117,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4291,greivis-vasquez,Greivis Vasquez,PG,MIL,milwaukee-bucks,Milwaukee Bucks,6600000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2968439,aron-baynes,Aron Baynes,C,DET,detroit-pistons,Detroit Pistons,6500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3217,carl-landry,Carl Landry,PF,PHI,philadelphia-76ers,Philadelphia 76ers,6500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3964,patrick-beverley,Patrick Beverley,PG,HOU,houston-rockets,Houston Rockets,6486486,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6601,michael-kidd-gilchrist,Michael Kidd-Gilchrist,F,CHA,charlotte-hornets,Charlotte Hornets,6331404,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2768,jarrett-jack,Jarrett Jack,G,BKN,brooklyn-nets,Brooklyn Nets,6300000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4003,jodie-meeks,Jodie Meeks,G,DET,detroit-pistons,Detroit Pistons,6270000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4264,patrick-patterson,Patrick Patterson,PF,TOR,toronto-raptors,Toronto Raptors,6268675,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3211,spencer-hawes,Spencer Hawes,PF,CHA,charlotte-hornets,Charlotte Hornets,6110034,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3190,marco-belinelli,Marco Belinelli,G,SAC,sacramento-kings,Sacramento Kings,6060606,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3993,gerald-henderson,Gerald Henderson,SG,POR,portland-trail-blazers,Portland Trail Blazers,6000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3059319,andrew-wiggins,Andrew Wiggins,SF,MIN,minnesota-timberwolves,Minnesota Timberwolves,5758680,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2011,kyle-korver,Kyle Korver,G,ATL,atlanta-hawks,Atlanta Hawks,5746479,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3136195,karl-anthony-towns,Karl-Anthony Towns,C,MIN,minnesota-timberwolves,Minnesota Timberwolves,5703600,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6580,bradley-beal,Bradley Beal,SG,WSH,washington-wizards,Washington Wizards,5694674,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+165,jamal-crawford,Jamal Crawford,G,LAC,la-clippers,LA Clippers,5675000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3445,courtney-lee,Courtney Lee,G,CHA,charlotte-hornets,Charlotte Hornets,5675000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2795,martell-webster,Martell Webster,SF,NO,new-orleans-pelicans,New Orleans Pelicans,5613500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6459,nikola-mirotic,Nikola Mirotic,F,CHI,chicago-bulls,Chicago Bulls,5543725,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2393,shaun-livingston,Shaun Livingston,G,GS,golden-state-warriors,Golden State Warriors,5543725,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3220,josh-mcroberts,Josh McRoberts,PF,MIA,miami-heat,Miami Heat,5543725,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4385,mirza-teletovic,Mirza Teletovic,PF,PHX,phoenix-suns,Phoenix Suns,5500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3033,p.j.-tucker,P.J. Tucker,PF,PHX,phoenix-suns,Phoenix Suns,5500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3242,brandan-wright,Brandan Wright,F,MEM,memphis-grizzlies,Memphis Grizzlies,5464000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2798,deron-williams,Deron Williams,PG,DAL,dallas-mavericks,Dallas Mavericks,5378974,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+215,tim-duncan,Tim Duncan,C,SA,san-antonio-spurs,San Antonio Spurs,5250000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3243,nick-young,Nick Young,G,LAL,los-angeles-lakers,Los Angeles Lakers,5219169,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2016,zaza-pachulia,Zaza Pachulia,C,DAL,dallas-mavericks,Dallas Mavericks,5200000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2527963,victor-oladipo,Victor Oladipo,SG,ORL,orlando-magic,Orlando Magic,5192520,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2367,tony-allen,Tony Allen,SG,MEM,memphis-grizzlies,Memphis Grizzlies,5158539,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3056600,jabari-parker,Jabari Parker,PF,MIL,milwaukee-bucks,Milwaukee Bucks,5152440,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6628,dion-waiters,Dion Waiters,G,OKC,oklahoma-city-thunder,Oklahoma City Thunder,5138430,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3136776,d'angelo-russell,D'Angelo Russell,PG,LAL,los-angeles-lakers,Los Angeles Lakers,5103120,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1982,chris-kaman,Chris Kaman,C,POR,portland-trail-blazers,Portland Trail Blazers,5016000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3973,darren-collison,Darren Collison,G,SAC,sacramento-kings,Sacramento Kings,5013559,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3277,c.j.-watson,C.J. Watson,PG,ORL,orlando-magic,Orlando Magic,5000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2444,jr-smith,JR Smith,G,CLE,cleveland-cavaliers,Cleveland Cavaliers,5000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6462,marcus-morris-sr.,Marcus Morris Sr.,SF,DET,detroit-pistons,Detroit Pistons,5000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3998,jonas-jerebko,Jonas Jerebko,F,BOS,boston-celtics,Boston Celtics,5000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1135,chris-andersen,Chris Andersen,PF,MEM,memphis-grizzlies,Memphis Grizzlies,5000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4298,timofey-mozgov,Timofey Mozgov,C,CLE,cleveland-cavaliers,Cleveland Cavaliers,4950000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4270,trevor-booker,Trevor Booker,F,UTAH,utah-jazz,Utah Jazz,4775000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2594922,otto-porter-jr.,Otto Porter Jr.,SF,WSH,washington-wizards,Washington Wizards,4662960,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6477,jonas-valanciunas,Jonas Valanciunas,C,TOR,toronto-raptors,Toronto Raptors,4660482,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3059318,joel-embiid,Joel Embiid,C,PHI,philadelphia-76ers,Philadelphia 76ers,4626960,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3135048,jahlil-okafor,Jahlil Okafor,C,PHI,philadelphia-76ers,Philadelphia 76ers,4582680,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6469,kyle-singler,Kyle Singler,F,OKC,oklahoma-city-thunder,Oklahoma City Thunder,4500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1708,mike-dunleavy,Mike Dunleavy,SG,CHI,chicago-bulls,Chicago Bulls,4500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2778,c.j.-miles,C.J. Miles,SG,IND,indiana-pacers,Indiana Pacers,4394225,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3410,alexis-ajinca,Alexis Ajinca,C,NO,new-orleans-pelicans,New Orleans Pelicans,4389607,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3201,jared-dudley,Jared Dudley,SF,WSH,washington-wizards,Washington Wizards,4375000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2439,jameer-nelson,Jameer Nelson,G,DEN,denver-nuggets,Denver Nuggets,4345000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3419,mario-chalmers,Mario Chalmers,G,MEM,memphis-grizzlies,Memphis Grizzlies,4300000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3232,jason-smith,Jason Smith,F,ORL,orlando-magic,Orlando Magic,4300000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3055,j.j.-barea,J.J. Barea,G,DAL,dallas-mavericks,Dallas Mavericks,4290000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6606,damian-lillard,Damian Lillard,PG,POR,portland-trail-blazers,Portland Trail Blazers,4236287,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2579258,cody-zeller,Cody Zeller,C,CHA,charlotte-hornets,Charlotte Hornets,4204200,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3064290,aaron-gordon,Aaron Gordon,PF,ORL,orlando-magic,Orlando Magic,4171680,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3102531,kristaps-porzingis,Kristaps Porzingis,C,NY,new-york-knicks,New York Knicks,4131720,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+136,vince-carter,Vince Carter,G,MEM,memphis-grizzlies,Memphis Grizzlies,4088019,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2382,devin-harris,Devin Harris,G,DAL,dallas-mavericks,Dallas Mavericks,4053446,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6424,lavoy-allen,Lavoy Allen,F,IND,indiana-pacers,Indiana Pacers,4050000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2774,ian-mahinmi,Ian Mahinmi,C,IND,indiana-pacers,Indiana Pacers,4000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3994,jordan-hill,Jordan Hill,C,IND,indiana-pacers,Indiana Pacers,4000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6480,derrick-williams,Derrick Williams,PF,NY,new-york-knicks,New York Knicks,4000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6569,alan-anderson,Alan Anderson,SG,WSH,washington-wizards,Washington Wizards,4000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3028,thabo-sefolosha,Thabo Sefolosha,F,ATL,atlanta-hawks,Atlanta Hawks,4000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2753,raymond-felton,Raymond Felton,G,DAL,dallas-mavericks,Dallas Mavericks,3950313,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4269,nemanja-bjelica,Nemanja Bjelica,PF,MIN,minnesota-timberwolves,Minnesota Timberwolves,3950001,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6578,harrison-barnes,Harrison Barnes,SF,GS,golden-state-warriors,Golden State Warriors,3873398,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3460,marreese-speights,Marreese Speights,F,GS,golden-state-warriors,Golden State Warriors,3815000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2596107,alex-len,Alex Len,C,PHX,phoenix-suns,Phoenix Suns,3807120,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3102528,dante-exum,Dante Exum,PG,HOU,houston-rockets,Houston Rockets,3777720,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1978,nick-collison,Nick Collison,F,OKC,oklahoma-city-thunder,Oklahoma City Thunder,3750000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6615,kyle-o'quinn,Kyle O'Quinn,C,NY,new-york-knicks,New York Knicks,3750000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2995706,mario-hezonja,Mario Hezonja,F,ORL,orlando-magic,Orlando Magic,3741480,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4004,patty-mills,Patty Mills,PG,SA,san-antonio-spurs,San Antonio Spurs,3578947,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6619,terrence-ross,Terrence Ross,SG,TOR,toronto-raptors,Toronto Raptors,3553917,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1765,matt-barnes,Matt Barnes,SF,MEM,memphis-grizzlies,Memphis Grizzlies,3542500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6579,will-barton,Will Barton,SF,DEN,denver-nuggets,Denver Nuggets,3533333,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991280,nerlens-noel,Nerlens Noel,C,PHI,philadelphia-76ers,Philadelphia 76ers,3457800,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2990992,marcus-smart,Marcus Smart,PG,BOS,boston-celtics,Boston Celtics,3431040,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3593,bojan-bogdanovic,Bojan Bogdanovic,SF,BKN,brooklyn-nets,Brooklyn Nets,3425510,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4239,evan-turner,Evan Turner,G,BOS,boston-celtics,Boston Celtics,3425510,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991282,willie-cauley-stein,Willie Cauley-Stein,C,SAC,sacramento-kings,Sacramento Kings,3398280,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4253,quincy-pondexter,Quincy Pondexter,F,SA,san-antonio-spurs,San Antonio Spurs,3382023,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+662,paul-pierce,Paul Pierce,SF,LAC,la-clippers,LA Clippers,3376000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3474,anthony-morrow,Anthony Morrow,SG,OKC,oklahoma-city-thunder,Oklahoma City Thunder,3344000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6622,mike-scott,Mike Scott,PF,ATL,atlanta-hawks,Atlanta Hawks,3333333,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1711,drew-gooden,Drew Gooden,PF,WSH,washington-wizards,Washington Wizards,3300000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6585,andre-drummond,Andre Drummond,C,DET,detroit-pistons,Detroit Pistons,3272091,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2566741,kj-mcdaniels,KJ McDaniels,F,HOU,houston-rockets,Houston Rockets,3189794,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2578213,ben-mclemore,Ben McLemore,G,SAC,sacramento-kings,Sacramento Kings,3156600,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3003,randy-foye,Randy Foye,SG,OKC,oklahoma-city-thunder,Oklahoma City Thunder,3135000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3064514,julius-randle,Julius Randle,PF,LAL,los-angeles-lakers,Los Angeles Lakers,3132240,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6617,austin-rivers,Austin Rivers,PG,LAC,la-clippers,LA Clippers,3110796,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3892818,emmanuel-mudiay,Emmanuel Mudiay,G,DEN,denver-nuggets,Denver Nuggets,3102240,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6605,meyers-leonard,Meyers Leonard,C,POR,portland-trail-blazers,Portland Trail Blazers,3075880,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6431,norris-cole,Norris Cole,F,NO,new-orleans-pelicans,New Orleans Pelicans,3036927,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6603,jeremy-lamb,Jeremy Lamb,SG,CHA,charlotte-hornets,Charlotte Hornets,3034356,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3276,anthony-tolliver,Anthony Tolliver,F,DET,detroit-pistons,Detroit Pistons,3000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3417,jerryd-bayless,Jerryd Bayless,G,MIL,milwaukee-bucks,Milwaukee Bucks,3000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3415,d.j.-augustin,D.J. Augustin,PG,OKC,oklahoma-city-thunder,Oklahoma City Thunder,3000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2745,brandon-bass,Brandon Bass,PF,LAL,los-angeles-lakers,Los Angeles Lakers,3000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6592,john-henson,John Henson,F,MIL,milwaukee-bucks,Milwaukee Bucks,2943221,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4284,tibor-pleiss,Tibor Pleiss,C,UTAH,utah-jazz,Utah Jazz,2900000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1781,luis-scola,Luis Scola,F,TOR,toronto-raptors,Toronto Raptors,2900000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6591,maurice-harkless,Maurice Harkless,SF,POR,portland-trail-blazers,Portland Trail Blazers,2894059,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2581018,kentavious-caldwell-pope,Kentavious Caldwell-Pope,SG,DET,detroit-pistons,Detroit Pistons,2891760,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991042,nik-stauskas,Nik Stauskas,G,PHI,philadelphia-76ers,Philadelphia 76ers,2869440,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6641,brian-roberts,Brian Roberts,PG,CHA,charlotte-hornets,Charlotte Hornets,2854940,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2184,udonis-haslem,Udonis Haslem,PF,MIA,miami-heat,Miami Heat,2854940,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1981,kirk-hinrich,Kirk Hinrich,SG,CHI,chicago-bulls,Chicago Bulls,2854940,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3974,dante-cunningham,Dante Cunningham,F,NO,new-orleans-pelicans,New Orleans Pelicans,2850000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3134881,stanley-johnson,Stanley Johnson,SF,DET,detroit-pistons,Detroit Pistons,2841960,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6577,furkan-aldemir,Furkan Aldemir,PF,PHI,philadelphia-76ers,Philadelphia 76ers,2836768,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3554,omri-casspi,Omri Casspi,F,SAC,sacramento-kings,Sacramento Kings,2836186,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6427,bismack-biyombo,Bismack Biyombo,C,TOR,toronto-raptors,Toronto Raptors,2814000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+272,manu-ginobili,Manu Ginobili,G,SA,san-antonio-spurs,San Antonio Spurs,2814000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3413,darrell-arthur,Darrell Arthur,F,DEN,denver-nuggets,Denver Nuggets,2814000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3467,sonny-weems,Sonny Weems,SG,PHX,phoenix-suns,Phoenix Suns,2814000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4289,kevin-seraphin,Kevin Seraphin,C,NY,new-york-knicks,New York Knicks,2814000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1985,luke-ridnour,Luke Ridnour,PG,TOR,toronto-raptors,Toronto Raptors,2750000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2579260,trey-burke,Trey Burke,PG,UTAH,utah-jazz,Utah Jazz,2658240,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3078284,noah-vonleh,Noah Vonleh,F,POR,portland-trail-blazers,Portland Trail Blazers,2637720,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6631,tyler-zeller,Tyler Zeller,C,BOS,boston-celtics,Boston Celtics,2616975,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2579294,frank-kaminsky,Frank Kaminsky,PF,CHA,charlotte-hornets,Charlotte Hornets,2612520,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6624,jared-sullinger,Jared Sullinger,C,BOS,boston-celtics,Boston Celtics,2569260,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2490149,cj-mccollum,CJ McCollum,SG,POR,portland-trail-blazers,Portland Trail Blazers,2525160,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2583639,elfrid-payton,Elfrid Payton,PG,ORL,orlando-magic,Orlando Magic,2505720,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2166,leandro-barbosa,Leandro Barbosa,G,GS,golden-state-warriors,Golden State Warriors,2500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3247,joel-anthony,Joel Anthony,C,DET,detroit-pistons,Detroit Pistons,2500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3999,james-johnson,James Johnson,PF,TOR,toronto-raptors,Toronto Raptors,2500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6597,terrence-jones,Terrence Jones,PF,HOU,houston-rockets,Houston Rockets,2489530,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3135047,justise-winslow,Justise Winslow,PF,MIA,miami-heat,Miami Heat,2481720,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6454,shelvin-mack,Shelvin Mack,G,UTAH,utah-jazz,Utah Jazz,2433333,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2596108,michael-carter-williams,Michael Carter-Williams,PG,MIL,milwaukee-bucks,Milwaukee Bucks,2399040,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6614,andrew-nicholson,Andrew Nicholson,F,ORL,orlando-magic,Orlando Magic,2380593,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2528588,doug-mcdermott,Doug McDermott,SF,CHI,chicago-bulls,Chicago Bulls,2380440,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3133628,myles-turner,Myles Turner,C,IND,indiana-pacers,Indiana Pacers,2357760,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6464,donatas-motiejunas,Donatas Motiejunas,F,HOU,houston-rockets,Houston Rockets,2288205,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6588,evan-fournier,Evan Fournier,SG,ORL,orlando-magic,Orlando Magic,2288205,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991235,steven-adams,Steven Adams,C,OKC,oklahoma-city-thunder,Oklahoma City Thunder,2279040,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3192,aaron-brooks,Aaron Brooks,G,CHI,chicago-bulls,Chicago Bulls,2250000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3136196,trey-lyles,Trey Lyles,PF,UTAH,utah-jazz,Utah Jazz,2239800,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3231,ramon-sessions,Ramon Sessions,G,WSH,washington-wizards,Washington Wizards,2170465,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2760,danny-granger,Danny Granger,SF,DET,detroit-pistons,Detroit Pistons,2170465,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2448,beno-udrih,Beno Udrih,PG,MEM,memphis-grizzlies,Memphis Grizzlies,2170465,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1994,steve-blake,Steve Blake,PG,DET,detroit-pistons,Detroit Pistons,2170465,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2489663,kelly-olynyk,Kelly Olynyk,PF,BOS,boston-celtics,Boston Celtics,2165160,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3064440,zach-lavine,Zach LaVine,SG,MIN,minnesota-timberwolves,Minnesota Timberwolves,2148360,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6607,kendall-marshall,Kendall Marshall,PG,PHI,philadelphia-76ers,Philadelphia 76ers,2144772,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4299,jeremy-lin,Jeremy Lin,G,CHA,charlotte-hornets,Charlotte Hornets,2139000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4300,gary-neal,Gary Neal,PG,WSH,washington-wizards,Washington Wizards,2139000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3136193,devin-booker,Devin Booker,SG,PHX,phoenix-suns,Phoenix Suns,2127840,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6616,miles-plumlee,Miles Plumlee,C,MIL,milwaukee-bucks,Milwaukee Bucks,2109294,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2178,mo-williams,Mo Williams,PG,CLE,cleveland-cavaliers,Cleveland Cavaliers,2100000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2772,david-lee,David Lee,PF,DAL,dallas-mavericks,Dallas Mavericks,2085671,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2993875,shabazz-muhammad,Shabazz Muhammad,F,MIN,minnesota-timberwolves,Minnesota Timberwolves,2056920,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2968436,joe-ingles,Joe Ingles,SF,UTAH,utah-jazz,Utah Jazz,2050000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2982334,t.j.-warren,T.J. Warren,SF,PHX,phoenix-suns,Phoenix Suns,2041080,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6598,perry-jones,Perry Jones,SF,NO,new-orleans-pelicans,New Orleans Pelicans,2038206,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3064230,cameron-payne,Cameron Payne,PG,OKC,oklahoma-city-thunder,Oklahoma City Thunder,2021520,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6587,festus-ezeli,Festus Ezeli,C,GS,golden-state-warriors,Golden State Warriors,2008748,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3965,dejuan-blair,DeJuan Blair,C,WSH,washington-wizards,Washington Wizards,2000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6637,kent-bazemore,Kent Bazemore,SF,ATL,atlanta-hawks,Atlanta Hawks,2000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3032977,giannis-antetokounmpo,Giannis Antetokounmpo,PF,MIL,milwaukee-bucks,Milwaukee Bucks,1953960,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2531100,adreian-payne,Adreian Payne,PF,MIN,minnesota-timberwolves,Minnesota Timberwolves,1938840,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3133603,kelly-oubre-jr.,Kelly Oubre Jr.,SG,WSH,washington-wizards,Washington Wizards,1920240,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3032980,lucas-nogueira,Lucas Nogueira,C,TOR,toronto-raptors,Toronto Raptors,1842000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3102530,jusuf-nurkic,Jusuf Nurkic,C,DEN,denver-nuggets,Denver Nuggets,1842000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3074752,terry-rozier,Terry Rozier,SG,BOS,boston-celtics,Boston Celtics,1824360,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3032979,dennis-schroder,Dennis Schroder,PG,ATL,atlanta-hawks,Atlanta Hawks,1763400,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3064509,james-young,James Young,G,BOS,boston-celtics,Boston Celtics,1749840,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3137733,rashad-vaughn,Rashad Vaughn,G,MIL,milwaukee-bucks,Milwaukee Bucks,1733040,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2488651,ryan-kelly,Ryan Kelly,PF,LAL,los-angeles-lakers,Los Angeles Lakers,1724250,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2959753,joffrey-lauvergne,Joffrey Lauvergne,F,DEN,denver-nuggets,Denver Nuggets,1709719,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2560823,zoran-dragic,Zoran Dragic,SG,BOS,boston-celtics,Boston Celtics,1706225,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3059281,tyler-ennis,Tyler Ennis,G,MIL,milwaukee-bucks,Milwaukee Bucks,1662360,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991184,sam-dekker,Sam Dekker,F,HOU,houston-rockets,Houston Rockets,1646400,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6485,lance-thomas,Lance Thomas,F,NY,new-york-knicks,New York Knicks,1636842,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3041,lou-amundson,Lou Amundson,PF,NY,new-york-knicks,New York Knicks,1635476,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2959745,sergey-karasev,Sergey Karasev,SG,BKN,brooklyn-nets,Brooklyn Nets,1599840,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2999547,gary-harris,Gary Harris,SG,DEN,denver-nuggets,Denver Nuggets,1584480,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2531047,jerian-grant,Jerian Grant,G,NY,new-york-knicks,New York Knicks,1572360,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2528353,tony-snell,Tony Snell,SG,CHI,chicago-bulls,Chicago Bulls,1535880,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3113297,bruno-caboclo,Bruno Caboclo,F,TOR,toronto-raptors,Toronto Raptors,1524000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3064447,delon-wright,Delon Wright,SG,TOR,toronto-raptors,Toronto Raptors,1509360,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3981,wayne-ellington,Wayne Ellington,SG,BKN,brooklyn-nets,Brooklyn Nets,1500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2596158,shane-larkin,Shane Larkin,G,BKN,brooklyn-nets,Brooklyn Nets,1500000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2177,david-west,David West,F,SA,san-antonio-spurs,San Antonio Spurs,1499187,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2534781,gorgui-dieng,Gorgui Dieng,C,MIN,minnesota-timberwolves,Minnesota Timberwolves,1474440,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991041,mitch-mcgary,Mitch McGary,PF,OKC,oklahoma-city-thunder,Oklahoma City Thunder,1463040,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1705,caron-butler,Caron Butler,SF,SAC,sacramento-kings,Sacramento Kings,1449187,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2982340,justin-anderson,Justin Anderson,F,DAL,dallas-mavericks,Dallas Mavericks,1449000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2488653,mason-plumlee,Mason Plumlee,C,POR,portland-trail-blazers,Portland Trail Blazers,1415520,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2993873,jordan-adams,Jordan Adams,SG,MEM,memphis-grizzlies,Memphis Grizzlies,1404600,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3064482,bobby-portis,Bobby Portis,C,CHI,chicago-bulls,Chicago Bulls,1391160,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2987,andrea-bargnani,Andrea Bargnani,C,BKN,brooklyn-nets,Brooklyn Nets,1362897,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2488958,solomon-hill,Solomon Hill,SF,IND,indiana-pacers,Indiana Pacers,1358880,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2581177,rodney-hood,Rodney Hood,SG,UTAH,utah-jazz,Utah Jazz,1348440,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3064291,rondae-hollis-jefferson,Rondae Hollis-Jefferson,F,BKN,brooklyn-nets,Brooklyn Nets,1335480,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4232,alonzo-gee,Alonzo Gee,SF,NO,new-orleans-pelicans,New Orleans Pelicans,1320000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2528210,tim-hardaway-jr.,Tim Hardaway Jr.,SF,ATL,atlanta-hawks,Atlanta Hawks,1304520,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3112335,nikola-jokic,Nikola Jokic,C,DEN,denver-nuggets,Denver Nuggets,1300000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2530780,shabazz-napier,Shabazz Napier,G,ORL,orlando-magic,Orlando Magic,1294440,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3135046,tyus-jones,Tyus Jones,PG,MIN,minnesota-timberwolves,Minnesota Timberwolves,1282080,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3443,sasha-kaun,Sasha Kaun,C,CLE,cleveland-cavaliers,Cleveland Cavaliers,1276000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3457,brandon-rush,Brandon Rush,F,GS,golden-state-warriors,Golden State Warriors,1270964,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3930,cartier-martin,Cartier Martin,PF,DET,detroit-pistons,Detroit Pistons,1270964,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3452,javale-mcgee,JaVale McGee,C,DAL,dallas-mavericks,Dallas Mavericks,1270964,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2528779,reggie-bullock,Reggie Bullock,SF,DET,detroit-pistons,Detroit Pistons,1252440,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3102529,clint-capela,Clint Capela,C,HOU,houston-rockets,Houston Rockets,1242720,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3064517,jarell-martin,Jarell Martin,F,MEM,memphis-grizzlies,Memphis Grizzlies,1230840,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2530596,andre-roberson,Andre Roberson,G,OKC,oklahoma-city-thunder,Oklahoma City Thunder,1210800,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2594816,p.j.-hairston,P.J. Hairston,SF,CHA,charlotte-hornets,Charlotte Hornets,1201440,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4376,boban-marjanovic,Boban Marjanovic,C,SA,san-antonio-spurs,San Antonio Spurs,1200000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3971,earl-clark,Earl Clark,SF,BKN,brooklyn-nets,Brooklyn Nets,1185784,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4229,reggie-williams,Reggie Williams,SF,NO,new-orleans-pelicans,New Orleans Pelicans,1185784,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3032976,rudy-gobert,Rudy Gobert,C,UTAH,utah-jazz,Utah Jazz,1175880,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3064520,jordan-mickey,Jordan Mickey,F,BOS,boston-celtics,Boston Celtics,1170960,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3979,toney-douglas,Toney Douglas,PG,NO,new-orleans-pelicans,New Orleans Pelicans,1164858,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991281,archie-goodwin,Archie Goodwin,SG,PHX,phoenix-suns,Phoenix Suns,1160160,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2488999,cj-wilcox,CJ Wilcox,G,LAC,la-clippers,LA Clippers,1159680,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2580365,larry-nance-jr.,Larry Nance Jr.,PF,LAL,los-angeles-lakers,Los Angeles Lakers,1155600,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6635,chris-copeland,Chris Copeland,SF,MIL,milwaukee-bucks,Milwaukee Bucks,1150000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2309097,damjan-rudez,Damjan Rudez,SF,MIN,minnesota-timberwolves,Minnesota Timberwolves,1149500,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2983727,rj-hunter,RJ Hunter,G,BOS,boston-celtics,Boston Celtics,1148640,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2489716,matthew-dellavedova,Matthew Dellavedova,PG,CLE,cleveland-cavaliers,Cleveland Cavaliers,1147276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2993874,kyle-anderson,Kyle Anderson,SF,SA,san-antonio-spurs,San Antonio Spurs,1142880,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2531364,josh-huestis,Josh Huestis,F,OKC,oklahoma-city-thunder,Oklahoma City Thunder,1140240,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3153165,chris-mccullough,Chris McCullough,F,BKN,brooklyn-nets,Brooklyn Nets,1140240,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3155535,kevon-looney,Kevon Looney,C,GS,golden-state-warriors,Golden State Warriors,1131960,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4247,wesley-johnson,Wesley Johnson,F,LAC,la-clippers,LA Clippers,1100602,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4250,luke-babbitt,Luke Babbitt,F,NO,new-orleans-pelicans,New Orleans Pelicans,1100602,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3464,henry-walker,Henry Walker,SF,MIA,miami-heat,Miami Heat,1100602,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4023,garrett-temple,Garrett Temple,SG,WSH,washington-wizards,Washington Wizards,1100602,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4295,jeremy-evans,Jeremy Evans,F,DAL,dallas-mavericks,Dallas Mavericks,1100602,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4267,cole-aldrich,Cole Aldrich,C,LAC,la-clippers,LA Clippers,1100602,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991039,glenn-robinson-iii,Glenn Robinson III,SF,IND,indiana-pacers,Indiana Pacers,1100000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2993370,richaun-holmes,Richaun Holmes,C,PHI,philadelphia-76ers,Philadelphia 76ers,1074169,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6452,jon-leuer,Jon Leuer,F,PHX,phoenix-suns,Phoenix Suns,1035000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4242,james-anderson,James Anderson,SG,SAC,sacramento-kings,Sacramento Kings,1015421,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6460,e'twaun-moore,E'Twaun Moore,SG,CHI,chicago-bulls,Chicago Bulls,1015421,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3996,lester-hudson,Lester Hudson,SG,LAC,la-clippers,LA Clippers,1015421,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3421,joey-dorsey,Joey Dorsey,PF,XXX,NO ID,Barcelona FC Barcelona,1015421,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6436,jordan-hamilton,Jordan Hamilton,SG,NO,new-orleans-pelicans,New Orleans Pelicans,1015421,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2596110,rakeem-christmas,Rakeem Christmas,PF,IND,indiana-pacers,Indiana Pacers,1007026,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2528386,joe-young,Joe Young,G,IND,indiana-pacers,Indiana Pacers,1007026,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2490620,robert-covington,Robert Covington,PF,PHI,philadelphia-76ers,Philadelphia 76ers,1000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2433,kris-humphries,Kris Humphries,PF,WSH,washington-wizards,Washington Wizards,1000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991055,montrezl-harrell,Montrezl Harrell,C,HOU,houston-rockets,Houston Rockets,1000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3033031,edy-tavares,Edy Tavares,C,ATL,atlanta-hawks,Atlanta Hawks,1000000,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4262,hassan-whiteside,Hassan Whiteside,C,MIA,miami-heat,Miami Heat,981348,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6576,quincy-acy,Quincy Acy,F,SAC,sacramento-kings,Sacramento Kings,981348,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4158,jerel-mcneal,Jerel McNeal,SG,PHX,phoenix-suns,Phoenix Suns,981348,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6594,john-jenkins,John Jenkins,G,PHX,phoenix-suns,Phoenix Suns,981348,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6611,quincy-miller,Quincy Miller,F,XXX,NO ID,Melbourne Melbourne United,981348,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2325975,chris-johnson,Chris Johnson,SG,UTAH,utah-jazz,Utah Jazz,981348,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6620,robert-sacre,Robert Sacre,C,LAL,los-angeles-lakers,Los Angeles Lakers,981348,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6618,thomas-robinson,Thomas Robinson,F,BKN,brooklyn-nets,Brooklyn Nets,981348,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4182,pablo-prigioni,Pablo Prigioni,PG,LAC,la-clippers,LA Clippers,947726,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3991,tyler-hansbrough,Tyler Hansbrough,PF,CHA,charlotte-hornets,Charlotte Hornets,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4305,ish-smith,Ish Smith,PG,PHI,philadelphia-76ers,Philadelphia 76ers,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6647,henry-sims,Henry Sims,C,BKN,brooklyn-nets,Brooklyn Nets,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2490089,mike-muscala,Mike Muscala,C,ATL,atlanta-hawks,Atlanta Hawks,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1996,matt-bonner,Matt Bonner,C,SA,san-antonio-spurs,San Antonio Spurs,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6634,hollis-thompson,Hollis Thompson,F,PHI,philadelphia-76ers,Philadelphia 76ers,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991009,grant-jerrett,Grant Jerrett,PF,POR,portland-trail-blazers,Portland Trail Blazers,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2807,ronnie-price,Ronnie Price,PG,PHX,phoenix-suns,Phoenix Suns,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2326307,seth-curry,Seth Curry,SG,SAC,sacramento-kings,Sacramento Kings,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991143,ricky-ledo,Ricky Ledo,SG,NY,new-york-knicks,New York Knicks,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2421,sasha-vujacic,Sasha Vujacic,SG,NY,new-york-knicks,New York Knicks,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2531210,allen-crabbe,Allen Crabbe,G,POR,portland-trail-blazers,Portland Trail Blazers,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2866,john-lucas-iii,John Lucas III,PG,MIN,minnesota-timberwolves,Minnesota Timberwolves,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1767,rasual-butler,Rasual Butler,SF,SA,san-antonio-spurs,San Antonio Spurs,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1724,tayshaun-prince,Tayshaun Prince,SF,MIN,minnesota-timberwolves,Minnesota Timberwolves,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2490589,isaiah-canaan,Isaiah Canaan,G,PHI,philadelphia-76ers,Philadelphia 76ers,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6582,jared-cunningham,Jared Cunningham,G,MIL,milwaukee-bucks,Milwaukee Bucks,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+841,jason-terry,Jason Terry,G,HOU,houston-rockets,Houston Rockets,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1727,amar'e-stoudemire,Amar'e Stoudemire,C,MIA,miami-heat,Miami Heat,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+25,metta-world-peace,Metta World Peace,SF,LAL,los-angeles-lakers,Los Angeles Lakers,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2284101,justin-holiday,Justin Holiday,SG,CHI,chicago-bulls,Chicago Bulls,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2506,damien-wilkins,Damien Wilkins,SG,IND,indiana-pacers,Indiana Pacers,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2991473,anthony-bennett,Anthony Bennett,F,TOR,toronto-raptors,Toronto Raptors,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3451,luc-mbah-a-moute,Luc Mbah a Moute,F,LAC,la-clippers,LA Clippers,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2834,chuck-hayes,Chuck Hayes,PF,HOU,houston-rockets,Houston Rockets,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2761,gerald-green,Gerald Green,G,MIA,miami-heat,Miami Heat,947276,2020,NA,NA,NA,NA,NA,NA,NA,NA,NA

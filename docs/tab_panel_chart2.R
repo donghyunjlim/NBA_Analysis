@@ -60,3 +60,5 @@ server <- function(input, output) {
     ggplotly(tab_chart2)
   })
 }
+
+shinyApp(ui = tab_panel_chart2, server = server)

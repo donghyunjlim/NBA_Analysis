@@ -27,7 +27,7 @@ chart_1 <- ggplot(nba, aes(x = games, y = points)) +
     title = "Correlation Between # of Games and Points by Team",
     subtitle = "Grouped by Team of Starters in the NBA"
   )
-chart_1
+
 # Creating a UI
 tab_panel_chart1 <- tabPanel(
   "chart 1",

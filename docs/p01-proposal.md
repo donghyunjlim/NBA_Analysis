@@ -1,9 +1,9 @@
 # Title of Project: Project proposal
 ## Created by Steven, Jinsu, Jason, Eric
-=======
+
 # NBA Basketball Analysis: Project proposal
 ### Code Name: **BBB**
->>>>>>> 3fd4396c8917f30c005f66fd94c664b53910fb3c
+
 ### Winter 2022
 ### Affiliation:
 **Info 201: Technical Foundations of Informatics (The Information School)**

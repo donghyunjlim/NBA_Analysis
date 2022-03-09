@@ -14,7 +14,7 @@ server <- function(input, output) {
   # Chart 1
   
   # Load data frame
-  NBA <- read.csv("../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
+  NBA <- read.csv("../docs/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
   
   # Grouping the dataframe by team and summarizing each of them with average games and points. 
   nba1 <- NBA %>%
@@ -36,8 +36,7 @@ server <- function(input, output) {
   # Chart 2
   
   # Loading in the `nba` dataframe
-  # nba <- read.csv(file = "../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
-  nba <- read.csv(file = "../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
+  nba <- read.csv(file = "../docs/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
   
   # Comparing the average 3-point percentage (3p%) of each pure position player
   # (e.g., PG, SG, SF, PF, C) in the 2021-22 NBA season using a bar chart.

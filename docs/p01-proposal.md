@@ -1,38 +1,3 @@
-<<<<<<< HEAD
-# Title of your Project: Project Proposal (github test)
-
-**TODO**: Edit this file. Your project proposal goes here. Save and delete the developer notes when done.
-
-## Developer Notes
-
-* **Where is the project brief?**  [`../instructions/project-design-brief.pdf`](../instructions/project-design-brief.pdf).
-* **Making Progress**: We understand this work might be difficult. Also, we understand that your project ideas might not be completely worked out. So, we ask that you do the best you can. You will receive specific guidance from your TA and constructive feedback. We are confident that you will succeed!
-* **What should be included in the proposal?** Every proposal will be different. It depends on your particular project.  That said, in the table below you will find the expected report elements.  It is important that you engage with and respond to the the Design Brief.
-* **How should the proposal be formatted?** You should format your proposal using Markdown in this file. You should aim for a professional presentation - clear, concise, interesting, and free of spelling and grammatical errors.
-* **What headings should we use?** As needed, the suggested headings below can be revised and new headings and sub-headings can be added. Please use headings, bullet lists, tables, figures, and other markdown code effectively - seek a professional presentation.
-* **Finishing up.** When you are finished writing and formatting your proposal, save these developer notes(they might useful in the future). Then, delete them.
-* **Questions?** If you have questions, please ask your TA or post on Teams.
-
-|Element | Brief Description|
-|---------------| --------------
-|Code name | Give your project a _code name_, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: _Jazz-4_, _Rocking Fish_, etc.|
-|Project title| Give your project a concise, interesting title that summarizes the entirety of your project. (Your title can change on subsequent deliverables.) |
-|Authors | Names of your team members and contact information (email addresses). |
-|Affiliation |  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington |
-|Date | Winter 2022|
-|Abstract | No more than three sentences that summarize your project. Focus on the very most important aspects. For example: **(1)** "Our main question is .... This question is important because .... To address the question, we will ...." **(2)** "We are concerned with ..., becuase .... To address this concern, we plan to ...." **(3)** "Consider that ....  This is important because .... Accordingly, we plan to ...."   |
-|Keywords | 3-5 keywords that summarize your project.  (e.g., "Keywords: human physiology; bicycle exercise; elderly; power and heart rate times-series data") |
-|1.0 Introduction | Briefly introduce your project. (about 150 words) |
-|2.0 Design Situation | Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. **Note**: You *must* include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure.  (about 400 words) |
-|3.0 Research questions | 3-5 research questions. What motivates the questions? Why are they important? See the Deign Brief, section B.4. (about 150 words) |
-|4.0 The Dataset | See Design Brief, setions B.5 (_Size and complexity_) and B.6 (_Data provenance_). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words) |
-|5.0 Expected Implications | Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words) |
-|6.0 Limitations | What limitations might you need to address? Briefly discuss. (about 150 words) |
-|Acknowledgements | Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.|
-|References | Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
-|Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
-
-
 # Title of Project: Project proposal
 ## Created by Steven, Jinsu, Jason, Eric
 =======
@@ -207,6 +172,26 @@ If our research question gets answered and we get correlations between minutes p
 
 ### Limitations
 Though our analysis will consist of the appropriate amount of data points to best support our thesis and come up with results, the variation of players’ performance is expected as their progress is not always linear. For example, players go through injuries, personal matters, or slumps, and later some of those players show good performance in the game but there are also others who struggle to be at the same level as they were before. Thus, we’d like to emphasize that the end result of the project will be based on the probability from the collected data and won’t be entirely accurate in future cases. Additionally, if our group decides to take players’ injuries into consideration for the project, we’ll need to assess the severity of each player’s injury as well as they matter to their future performances, which would be difficult.
+
+### Findings
+
+## Question 1 Answered: 
+
+What effect(s) does a conservative approach (e.g., players with high game score playing relatively low minutes; see Kawhi Leonard) have on a player’s overall efficiency for that year? 
+
+The most important and perhaps main question for our report is this question right here. For this question, we answered it with chart 3. Where we charted the average minutes played by the Orlando Magic team, one of the most injured teams in the league, and their efficiency. Since it was an interactive graph, we were able to plot different percentages of their shots from free throws, to effective field goal percentages. We found that there doesn’t seem to be a major correlation between these two factors between 24 and 35 minutes. This would make sense because you have both bench players and starters on less minutes on this scale. However, there seems to be a large decrease in efficiency around 37 minutes. The only statistic that didn't go down was the free throws and three point percentages which would make sense because those shots are made primarily when players can't drive to the rim anymore or it's a bit easier to conserve energy during a late game situation. In that regards, it would seem to suggest that player's efficiencies are worse around 37 minutes and that load management is a good thing for player's health and safety as well, because less efficient shots are a result of fatigue, which can lead to injury. 
+
+
+### Discussions
+
+Now that we’ve collected all of our findings and compiled them into one place, we feel like this data would be massively important and useful to NBA fans and players. As fans often jeer and mock players for not playing through injuries, these charts, particularly chart 2 and 3 show that players are both more entertaining to watch, being more efficient, and are less likely be injured due to fatigue around the 37 minute mark of an NBA game. So player like Lebron James or Kawhi Leonard would be ample reason to restrict some of their minutes. We'd also like to state that this data isn't perfect. There are many other datasets that measure health that isn't tied to their performance. We just tied health to efficiency because we had no other metric to base it on. 
+
+
+
+###Conclusion
+
+If there was one major takeaway we'd like to impart, it is that players seem to play their absolute best basketball around 37 minutes before fatigue hits in. It makes sense that players don't go over this limit to prevent higher risk of injury and less efficiency. However, if there is a tied game late in the fourth quarter or there is overtime, I'd suggest going with three point attempts and free throws as those conserves the most energy, have higher efficiencies late game, and they have less contact. 
+
 
 
 ### Acknowledgements

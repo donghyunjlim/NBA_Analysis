@@ -4,7 +4,10 @@
 # Code Name: BBB
 # Steven Tran
 
-
+library("dplyr")
+library('ggplot2')
+library("shiny")
+library("plotly")
 
 # Load dataframe & Create Line chart
 NBA <- read.csv("../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
@@ -77,7 +80,19 @@ tab_panel_chart3 <- tabPanel(
       plotlyOutput("plot")
     )
   ),
-  p("Description of Why I chose this graph TBC")
+  p("The average percentages of a player's free throws, two pointer, three pointers,
+    field goals, and effective field goals were plotted against the average minutes played by the Orlando 
+    magic to help find a correlation between a player's effectiveness and the
+    level of load management they do. By this, we mean if there is a healther 
+    amount of physical play that would allow the players to play at their maximum
+    without decreasing in efficiency. This has been a debate in regards to a 
+    player's health and so it was an important task for us to tackle. In the end, 
+    we found that in all categories except for three point percentage and free throw percentages, the 
+    effectiveness of Orlando magic players seem to decrease around the 37 to 38 mark.
+    This is interesting because many players have been cited to 'load managment', a 
+    term used to critisize players not playing more than they need to. However, 
+    with this data, it seems as though these comments weren't justified. There is 
+    a health and efficiency reason as to why this occurs")
   ))
 
 

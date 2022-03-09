@@ -8,6 +8,9 @@ library("lintr")
 library("styler")
 
 # Source Documents
+#source("../source/Chart_1.R")
+#source("../source/Chart_2.R")
+#source("../source/Chart_3.R")
 source("app_server.R")
 source("tab_panel_intro.R")
 source("tab_panel_chart1.R")

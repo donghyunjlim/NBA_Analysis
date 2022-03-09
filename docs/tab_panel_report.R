@@ -1,11 +1,13 @@
 # From Lecture 2/23/22
+library(markdown)
+# source("p01-proposal.md")
 
 tab_panel_report <- tabPanel(
   "Report",
   fluidRow(
     column(
       12,
-      include("docs/p01-proposal")
+      includeMarkdown("p01-proposal.md")
     )
   )
 )

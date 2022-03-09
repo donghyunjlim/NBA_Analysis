@@ -24,6 +24,6 @@ ui <- navbarPage(
   tab_panel_chart1,
   tab_panel_chart2,
   tab_panel_chart3,
-  tab_panel_summary,
+  summary_tab,
   tab_panel_report
 )

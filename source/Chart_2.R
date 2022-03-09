@@ -37,7 +37,7 @@ library("tidyverse")
 
 # Loading in the `nba` dataframe
 # nba <- read.csv(file = "../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
-nba <- read.csv(file = "C:/Users/ericl/Documents/INFO-201/Project/final-project-starter-OrangeCowz/data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
+nba <- read.csv(file = "../data/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
 
 # Comparing the average 3-point percentage (3p%) of each pure position player
 # (e.g., PG, SG, SF, PF, C) in the 2021-22 NBA season using a bar chart.

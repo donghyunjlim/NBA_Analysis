@@ -17,7 +17,8 @@ source("tab_panel_summary.R")
 source("tab_panel_report.R")
 
 ui <- navbarPage(
-  title = "BBB: A Basketball Analysis",
+  theme = shinytheme("sandstone"),
+  title = strong("BBB: A Basketball Analysis", style = "color: #0047AB; font size: 20px"),
   position = "fixed-top",
   tab_panel_intro,
   tab_panel_chart1,

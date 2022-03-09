@@ -104,6 +104,7 @@ nba_9 <- round_df(nba_8)
 # Joining all data frames into `final_nba`
 final_nba <- left_join(nba_final, nba_9, by = "Pos")
 
+
 #-------------------------------------------------------------------------------
 # Plotting the visualization (bar chart)
 chart_2 <- ggplot(final_nba, aes(x = Pos, y = X3P.)) +

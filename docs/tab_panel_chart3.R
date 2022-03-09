@@ -48,19 +48,19 @@ chart_3
 
 # Creating server
 
-server <- function(input, output) {
-  output$plot <- renderPlotly({
-    tab_chart3 <- ggplot(nba) +
-      geom_line(aes(x = minutes_played, y = !!as.name(input$y_var)), size = 1) +
-      labs(
-        x = "Average Minutes Played",
-        y = "Production on Court measured by Percentages",
-        title = "The Average Y-Variable Percentage Vs. Average Minutes played",
-        subtitle = "Grouped By Individual Orlando Magic Season"
-      ) 
-    ggplotly(tab_chart3)
-  }) 
-}
+# server <- function(input, output) {
+#   output$plot <- renderPlotly({
+#     tab_chart3 <- ggplot(nba) +
+#       geom_line(aes(x = minutes_played, y = !!as.name(input$y_var)), size = 1) +
+#       labs(
+#         x = "Average Minutes Played",
+#         y = "Production on Court measured by Percentages",
+#         title = "The Average Y-Variable Percentage Vs. Average Minutes played",
+#         subtitle = "Grouped By Individual Orlando Magic Season"
+#       ) 
+#     ggplotly(tab_chart3)
+#   }) 
+# }
 
 
 # Creating the tab panel for the UI
@@ -69,7 +69,6 @@ server <- function(input, output) {
 tab_panel_chart3 <- tabPanel(
   "Chart 3",
   titlePanel("The Average Y-Variable Percentage Vs. Years"),
-  sidebarLayout(
     sidebarPanel(
       helpText("Select Y-Variable"),
       selectInput("y_var",
@@ -79,13 +78,12 @@ tab_panel_chart3 <- tabPanel(
                                  "Three Point Percentage" = "three_point_percent",
                                  "Two Point Percentage" = "two_point_percent",
                                  "Free Throw Percentage" = "free_throw_percent"),
-                  selected = "eFG."
+                  selected = "eFG.")
       ),
     
     mainPanel(
       plotlyOutput("plot")
-    )
-  ),
+    ),
   p("The average percentages of a player's free throws, two pointer, three pointers,
     field goals, and effective field goals were plotted against the average minutes played by the Orlando 
     magic to help find a correlation between a player's effectiveness and the
@@ -99,11 +97,13 @@ tab_panel_chart3 <- tabPanel(
     term used to critisize players not playing more than they need to. However, 
     with this data, it seems as though these comments weren't justified. There is 
     a health and efficiency reason as to why this occurs")
-  ))
+  )
+
+
 
 
 # Testing if it works on shinyApp
-shinyApp(ui = tab_panel_chart3, server = server)
+# shinyApp(ui = tab_panel_chart3, server = server)
   
   
   

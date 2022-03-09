@@ -19,11 +19,11 @@ tab_panel_chart2 <- tabPanel(
     sidebarPanel(
       helpText("2021-2022 Season Averages"),
       selectInput(inputId = "y_var",
-                label = "Type of Shot%:",
+                label = "Type of Shot %:",
                 choices = list("Two-Point Percentage" = "X2P.",
                                "Three-Point Percentage" = "X3P.",
                                "Free Throw Percentage" = "FT."),
-                selected = "X2P.")
+                selected = "Two-Point Percentage")
       ),
     
   # Show a plot of the generated distribution
@@ -42,23 +42,24 @@ tab_panel_chart2 <- tabPanel(
     their goals after NBA players, as they are some of the best basektball players in the world.")
   )
 
-# app_server.R
-server <- function(input, output) {
-  
-  output$plot <- renderPlotly({
-    tab_chart2 <- ggplot(final_nba, aes(x = Pos, y = !!as.name(input$y_var)), size = 1) +
-      geom_col(fill = "#FFA500") +
-      geom_text(aes(label = !!as.name(input$y_var)), vjust = 2, size = 3) +
-      labs(
-        x = "Position",
-        y = "Shooting Percentages (%)",
-        title = "Average Shooting Percentages (%) By Position",
-        subtitle = "2021-22 NBA Season",
-        caption = "A summary of 2-point, 3-point, and free throw percent averages by position in the NBA.",
-        alt = "A summary of 2021-22 2-point, 3-point, and free throw percent averages by position in the NBA."
-      )
-    ggplotly(tab_chart2)
-  })
-}
 
-shinyApp(ui = tab_panel_chart2, server = server)
+# app_server.R
+# server <- function(input, output) {
+# 
+#   # output$plot <- renderPlotly({
+#   #   tab_chart2 <- ggplot(final_nba, aes(x = Pos, y = !!as.name(input$y_var)), size = 1) +
+#   #     geom_col(fill = "#FFA500") +
+#   #     geom_text(aes(label = !!as.name(input$y_var)), vjust = 2, size = 3) +
+#   #     labs(
+#   #       x = "Position",
+#   #       y = "Shooting Percentages (%)",
+#   #       title = "Average Shooting Percentages (%) By Position",
+#   #       subtitle = "2021-22 NBA Season",
+#   #       caption = "A summary of 2-point, 3-point, and free throw percent averages by position in the NBA.",
+#   #       alt = "A summary of 2021-22 2-point, 3-point, and free throw percent averages by position in the NBA."
+#   #     )
+#   #   ggplotly(tab_chart2)
+#   })
+# }
+
+# shinyApp(ui = tab_panel_chart2, server = server)

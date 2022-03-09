@@ -55,7 +55,7 @@ tab_panel_chart1 <- tabPanel(
 # Creating a server
 server <- function(input, output) {
       output$chart_1 <- renderPlotly({
-        tab_chart1 <- ggplot(nba %>% filter(Tm %in% input$team)) + 
+        tab_chart1 <- ggplot(nba1 %>% filter(Tm %in% input$team)) + 
           geom_point(mapping = aes(x = games, y = points, colour = Tm, size = 0.5)) +
           xlim(40, 90) +
           ylim(0, 20) +

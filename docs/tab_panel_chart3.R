@@ -5,8 +5,14 @@
 # Steven Tran
 
 library("dplyr")
-library('ggplot2')
-library("shiny")
+library("tidyverse")
+library("ggplot2")
+library("maps")
+library("mapproj")
+library("leaflet")
+library("DT")
+library("knitr")
+library("stringr")
 library("plotly")
 
 # Load dataframe & Create Line chart

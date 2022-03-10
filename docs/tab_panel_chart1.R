@@ -10,7 +10,7 @@ library(shiny)
 
 
 # Load data frame
-NBA <- read.csv("../docs/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
+NBA <- read.csv("nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
 
 # Grouping the dataframe by team and summarizing each of them with average games and points. 
 nba1 <- NBA %>%

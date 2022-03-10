@@ -16,8 +16,7 @@ library("stringr")
 library("plotly")
 
 # Load dataframe & Create Line chart
-NBA <- read.csv("../docs/nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
-
+NBA <- read.csv("nba_final_dataframe.csv", header = TRUE, stringsAsFactors = FALSE)
 # Use dplyr to group the dataframe by season and then summarize the average 
 # minutes played and average effective field goal percentage. 
 
